@@ -24,6 +24,39 @@ Pixy cam: ![Pixy-2 1-Smart-Vision-Sensor-Object-Tracking-Camera](https://github.
 
     Photo of ultrasonic sensor: ![Ultrasonic-Sensor (1)](https://github.com/user-attachments/assets/d6b3bff4-a4e4-48a0-98d6-80e1829464db)
 
+   
+4. To power all this we use the Zeee battery Shorty of 2200 mAh, of 2 Lithium polymer ,from Zeee. This battery weight 98 g. It does 7,4V, and its dimmensions are 73mm*34mm*18mm.
+
+   Battery: ![71juzktL4dL _AC_UF894,1000_QL80_](https://github.com/user-attachments/assets/ed4bb08f-dce2-4e19-8e15-5ce876a3e188)
+
+5. To power the motor, and regulates their speed and voltage, we use an H-Bridge, especially the L298N that is a dual H-bridge motor driver module designed to control the speed and direction of DC and stepper motors. It operates within a voltage range of 5V to 35V. We connect the H-Bridge to the Arduino, using the L298N as an intermediary between the Arduino R4 and the motors like the servomotor.
+
+   L298N: ![dual-h-bridge-motor-driver-l298n-44325-750x750](https://github.com/user-attachments/assets/50f5d1bb-c85c-4b46-b90e-ffeaee35d658)
+
+6. To regulate the voltage and electricity, we use a voltage regulator that is connected directly to the battery and also powers the DC motor.
+
+   Photo of the voltage regulator:
+   ![modulo-voltaje-ajustable-con-voltimetro-generico-lm2596-step-down-led-digital-2035-2612-1](https://github.com/user-attachments/assets/ea85fa16-83b9-4891-b576-245e0ad8913d)}
+
+7. For last but not least we have the Servo motor and the DC motor, that are very important because this electronical attachments will help us that the car can move and change dirrections. In the case of the Servo motor, this one is connected to an Ackerman Steering Wheel that is a physical steering mechanism designed based on Ackermann geometry with the idea that during a turn the inner wheel should turn sharper than the outer wheel so both wheels follow smooth path. If you are wondering, the Ackerman geometry is a system that ensures a smooth turn by making the inner wheel turn more than the outer one. Meanwhile, the DC motor is part of a mechanism of differents gears where it makes possible the movement of two different wheels with just one motor. This mechanism was created using 3D printers.
+
+   Ackerman steering wheel and Servo photo:
+   ![61U4BQ34BkL _AC_SX522_](https://github.com/user-attachments/assets/a5e1931c-8a38-4a1e-971f-afa697b164bb)
+
+   Mechanism of the DC motor:
+   ![Screenshot 2025-06-12 222236](https://github.com/user-attachments/assets/89c35461-acf2-4244-ba4f-b824a8509724)
+
+
+
+   
+
+
+
+
+
+
+
+
 
 
 

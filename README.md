@@ -46,6 +46,40 @@ Pixy cam: ![Pixy-2 1-Smart-Vision-Sensor-Object-Tracking-Camera](https://github.
    Mechanism of the DC motor:
    ![Screenshot 2025-06-12 222236](https://github.com/user-attachments/assets/89c35461-acf2-4244-ba4f-b824a8509724)
 
+Knowing this, you may wonder what is the chasis that we are going to use, after all is a very important part of the vehicle because without it, Crazy Diamond wouldn´t exist at the first place.
+Well the chasis that we used is a chasis of metal that already had the ackerman steering wheel, this chasis can be bought from Amazon. The dimensions of the original chasis are of 337*191*131mm.
+The linnk of the chasis is: https://www.amazon.com/-/es/inteligente-codificado-estructura-anticolisi%C3%B3n-triangular/dp/B0CWTZC5FQ/ref=sr_1_7?crid=3D9Y448EALARV&dib=eyJ2IjoiMSJ9.bCJjQ8c7nkW4Nwuakx-PQ0JSlsAtqFOYd4IfrV90OSppyMg7DebPeTKPTXEKDJlfPcESpcsJSoPtTjKUi3ovc-TNKSxQ_JUGRNZ3x5tnm776BvoPmyBzOIg2gmtpw0X2vn1QENXU6xpZ87O_cs2MhxIkoNzD6WcaPQV7HH_46VwBi9P1fDxEZxWsTRry3HO04tfUn8vBew1MA0w_9aZ2eg.bfHSBu8WWMGvrkC-OKG4-P4m9GnF3JpKHgq5pyXknh0&dib_tag=se&keywords=ackerman+steering+kit&qid=1749764977&sprefix=ackerman+st%2Caps%2C124&sr=8-7
+
+
+Photo of the chasis: ![61YIGLu0T0L _AC_SL1500_](https://github.com/user-attachments/assets/3b866ae3-cc4d-49d3-b05d-4d8c8e8187c9)
+
+After that we start disarming, destroying, and putting a lot of things in the car. Adapting the car, evolving it into a wonderful constructions, putting the pieces together, and starting to test and view possible ideas for the challenges.
+
+Example of how it should look the proccess in Powerpoint: ![Screenshot 2025-06-12 224532](https://github.com/user-attachments/assets/95bb5eab-1ceb-4f80-9074-d34f4e8d0cf4)
+
+After testing different components like the ESP32 or the T.o.F. sensors, the final car just used the previous materials and it looks like this:
+
+![Back of the vehicle](https://github.com/user-attachments/assets/d84f18ec-d28c-4e1a-b476-ad0eacad9e0f)}
+
+
+
+![Front of the vehicle](https://github.com/user-attachments/assets/4aa69e8d-950e-4e0f-b923-1388caeebf31)
+
+
+
+![Up view of the vehicle](https://github.com/user-attachments/assets/3d93f163-7ada-4756-86f7-f130d9bfa369)
+
+
+![Side 2 of the vehicle](https://github.com/user-attachments/assets/1cd57ae4-c6ca-4bbb-a0d7-5659cdb06ed6)
+
+
+
+![Vehicle side1](https://github.com/user-attachments/assets/6e4e4bbf-1efd-4bb6-a8ce-6042c837e99a)
+
+
+
+
+
 
 
    

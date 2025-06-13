@@ -17,7 +17,7 @@ Arduino R4:![descarga](https://github.com/user-attachments/assets/77c6d0bc-d8ed-
 
 2. The electronic device we will use to detect colors will be the pixy cam 2 that is a compact, self-contained vision sensor designed to learn objects by their colors. It processes images and quickly outputs data such as the object's signature.
    
-pixy cam: ![Pixy-2 1-Smart-Vision-Sensor-Object-Tracking-Camera](https://github.com/user-attachments/assets/66575a41-1351-47f3-9a1f-872ceead4ada)
+Pixy cam: ![Pixy-2 1-Smart-Vision-Sensor-Object-Tracking-Camera](https://github.com/user-attachments/assets/66575a41-1351-47f3-9a1f-872ceead4ada)
 
 
 3. To help us know where, when, and to mantain position. We will use ultrasonic sensors that uses sonar to measure the distance between itself and an object. It can measure between 2cm to 400 cm, and it operates 40 kHz. To complete the challenges, we used 2 ultrasonic sensors that are in the sides of the car, and are program in way that they will be like a second confirmation of when the car has to cross.

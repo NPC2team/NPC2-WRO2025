@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esquema Eléctrico Completo - Robot Navegador</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        svg {
+            background-color: white;
+            border: 1px solid #000;
+        }
+        .component-text {
+            font-size: 12px;
+            font-family: monospace;
+        }
+        .pin-text {
+            font-size: 10px;
+            font-family: monospace;
+        }
+        .value-text {
+            font-size: 10px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <svg width="1400" height="900" viewBox="0 0 1400 900">
+        <defs>
+            <!-- Ground symbol -->
+            <symbol id="ground">
+                <line x1="0" y1="0" x2="0" y2="15" stroke="black" stroke-width="2"/>
+                <line x1="-10" y1="15" x2="10" y2="15" stroke="black" stroke-width="2"/>
+                <line x1="-7" y1="20" x2="7" y2="20" stroke="black" stroke-width="2"/>
+                <line x1="-4" y1="25" x2="4" y2="25" stroke="black" stroke-width="2"/>
+            </symbol>
+            
+            <!-- VCC symbol -->
+            <symbol id="vcc">
+                <line x1="0" y1="0" x2="0" y2="15" stroke="black" stroke-width="2"/>
+                <circle cx="0" cy="15" r="3" fill="none" stroke="black" stroke-width="2"/>
+                <text x="8" y="18" class="pin-text">+5V</text>
+            </symbol>
+            
+            <!-- 12V symbol -->
+            <symbol id="v12">
+                <line x1="0" y1="0" x2="0" y2="15" stroke="black" stroke-width="2"/>
+                <circle cx="0" cy="15" r="3" fill="none" stroke="black" stroke-width="2"/>
+                <text x="8" y="18" class="pin-text">+12V</text>
+            </symbol>
+            
+            <!-- Push button symbol -->
+            <symbol id="pushbutton">
+                <circle cx="-10" cy="0" r="3" fill="black"/>
+                <circle cx="10" cy="0" r="3" fill="black"/>
+                <line x1="-10" y1="0" x2="-5" y2="0" stroke="black" stroke-width="2"/>
+                <line x1="5" y1="0" x2="10" y2="0" stroke="black" stroke-width="2"/>
+                <line x1="-5" y1="0" x2="5" y2="-10" stroke="black" stroke-width="2"/>
+                <circle cx="0" cy="-10" r="2" fill="none" stroke="black" stroke-width="1"/>
+            </symbol>
+        </defs>
+        
+        <!-- Battery symbol -->
+        <line x1="50" y1="200" x2="50" y2="220" stroke="black" stroke-width="2"/>
+        <line x1="35" y1="220" x2="65" y2="220" stroke="black" stroke-width="4"/>
+        <line x1="40" y1="225" x2="60" y2="225" stroke="black" stroke-width="2"/>
+        <line x1="35" y1="230" x2="65" y2="230" stroke="black" stroke-width="4"/>
+        <line x1="40" y1="235" x2="60" y2="235" stroke="black" stroke-width="2"/>
+        <line x1="50" y1="235" x2="50" y2="255" stroke="black" stroke-width="2"/>
+        <text x="70" y="230" class="component-text">12V</text>
+        <text x="55" y="215" class="pin-text">+</text>
+        <text x="55" y="265" class="pin-text">-</text>
+        
+        <!-- Switch symbol -->
+        <circle cx="50" cy="150" r="3" fill="black"/>
+        <circle cx="50" cy="120" r="3" fill="black"/>
+        <line x1="50" y1="120" x2="50" y2="150" stroke="black" stroke-width="2"/>
+        <line x1="50" y1="150" x2="65" y2="125" stroke="black" stroke-width="2"/>
+        <text x="75" y="140" class="component-text">SW1</text>
+        <text x="75" y="155" class="pin-text">ON/OFF</text>
+        
+        <!-- Power connections from battery through switch -->
+        <line x1="50" y1="200" x2="50" y2="153" stroke="black" stroke-width="2"/>
+        <line x1="50" y1="117" x2="50" y2="80" stroke="black" stroke-width="2"/>
+        <line x1="50" y1="80" x2="200" y2="80" stroke="black" stroke-width="2"/>
+        
+        <!-- 12V bus after switch -->
+        <line x1="200" y1="80" x2="800" y2="80" stroke="black" stroke-width="3"/>
+        <text x="400" y="75" class="component-text">12V BUS</text>
+        
+        <!-- Voltage Regulator -->
+        <rect x="200" y="150" width="100" height="60" fill="none" stroke="black" stroke-width="2"/>
+        <text x="250" y="140" text-anchor="middle" class="component-text">LM7805</text>
+        <text x="250" y="190" text-anchor="middle" class="component-text">REG 5V</text>
+        
+        <line x1="180" y1="170" x2="200" y2="170" stroke="black" stroke-width="2"/>
+        <text x="175" y="173" text-anchor="end" class="pin-text">IN</text>
+        
+        <line x1="300" y1="170" x2="320" y2="170" stroke="black" stroke-width="2"/>
+        <text x="325" y="173" text-anchor="start" class="pin-text">OUT</text>
+        
+        <line x1="250" y1="210" x2="250" y2="230" stroke="black" stroke-width="2"/>
+        <text x="255" y="240" text-anchor="start" class="pin-text">GND</text>
+        
+        <!-- Connect regulator to 12V bus -->
+        <line x1="180" y1="170" x2="180" y2="80" stroke="black" stroke-width="2"/>
+        <circle cx="180" cy="80" r="3" fill="black"/>
+        
+        <!-- 5V output from regulator -->
+        <line x1="320" y1="170" x2="350" y2="170" stroke="black" stroke-width="2"/>
+        <line x1="350" y1="170" x2="350" y2="50" stroke="black" stroke-width="2"/>
+        <line x1="350" y1="50" x2="1200" y2="50" stroke="black" stroke-width="2"/>
+        <use href="#vcc" x="350" y="30"/>
+        <text x="600" y="45" class="component-text">5V BUS (from regulator)</text>
+        
+        <!-- Arduino UNO -->
+        <rect x="550" y="250" width="200" height="350" fill="none" stroke="black" stroke-width="2"/>
+        <text x="650" y="240" text-anchor="middle" class="component-text">Arduino UNO</text>
+        <text x="650" y="425" text-anchor="middle" class="component-text">ATMEGA328P</text>
+        
+        <!-- DC Jack on Arduino -->
+        <rect x="590" y="600" width="40" height="30" fill="none" stroke="black" stroke-width="2"/>
+        <text x="610" y="645" text-anchor="middle" class="pin-text">DC JACK</text>
+        <circle cx="610" cy="615" r="8" fill="none" stroke="black" stroke-width="2"/>
+        <circle cx="610" cy="615" r="3" fill="black"/>
+        
+        <!-- Connect DC Jack to 12V bus -->
+        <line x1="610" y1="607" x2="610" y2="580" stroke="black" stroke-width="2"/>
+        <line x1="610" y1="580" x2="400" y2="580" stroke="black" stroke-width="2"/>
+        <line x1="400" y1="580" x2="400" y2="80" stroke="black" stroke-width="2"/>
+        <circle cx="400" cy="80" r="3" fill="black"/>
+        
+        <!-- Arduino pins left side -->
+        <line x1="530" y1="290" x2="550" y2="290" stroke="black" stroke-width="2"/>
+        <text x="525" y="293" text-anchor="end" class="pin-text">D2</text>
+        
+        <line x1="530" y1="310" x2="550" y2="310" stroke="black" stroke-width="2"/>
+        <text x="525" y="313" text-anchor="end" class="pin-text">D3</text>
+        
+        <line x1="530" y1="330" x2="550" y2="330" stroke="black" stroke-width="2"/>
+        <text x="525" y="333" text-anchor="end" class="pin-text">D4</text>
+        
+        <line x1="530" y1="350" x2="550" y2="350" stroke="black" stroke-width="2"/>
+        <text x="525" y="353" text-anchor="end" class="pin-text">D5</text>
+        
+        <line x1="530" y1="370" x2="550" y2="370" stroke="black" stroke-width="2"/>
+        <text x="525" y="373" text-anchor="end" class="pin-text">D6</text>
+        
+        <line x1="530" y1="390" x2="550" y2="390" stroke="black" stroke-width="2"/>
+        <text x="525" y="393" text-anchor="end" class="pin-text">D7</text>
+        
+        <line x1="530" y1="410" x2="550" y2="410" stroke="black" stroke-width="2"/>
+        <text x="525" y="413" text-anchor="end" class="pin-text">D8</text>
+        
+        <line x1="530" y1="430" x2="550" y2="430" stroke="black" stroke-width="2"/>
+        <text x="525" y="433" text-anchor="end" class="pin-text">D9</text>
+        
+        <line x1="530" y1="450" x2="550" y2="450" stroke="black" stroke-width="2"/>
+        <text x="525" y="453" text-anchor="end" class="pin-text">D10</text>
+        
+        <line x1="530" y1="470" x2="550" y2="470" stroke="black" stroke-width="2"/>
+        <text x="525" y="473" text-anchor="end" class="pin-text">D11/MOSI</text>
+        
+        <line x1="530" y1="490" x2="550" y2="490" stroke="black" stroke-width="2"/>
+        <text x="525" y="493" text-anchor="end" class="pin-text">D12/MISO</text>
+        
+        <line x1="530" y1="510" x2="550" y2="510" stroke="black" stroke-width="2"/>
+        <text x="525" y="513" text-anchor="end" class="pin-text">D13/SCK</text>
+        
+        <!-- Arduino pins right side -->
+        <line x1="750" y1="290" x2="770" y2="290" stroke="black" stroke-width="2"/>
+        <text x="775" y="293" text-anchor="start" class="pin-text">5V</text>
+        
+        <line x1="750" y1="310" x2="770" y2="310" stroke="black" stroke-width="2"/>
+        <text x="775" y="313" text-anchor="start" class="pin-text">GND</text>
+        
+        <line x1="750" y1="330" x2="770" y2="330" stroke="black" stroke-width="2"/>
+        <text x="775" y="333" text-anchor="start" class="pin-text">A0</text>
+        
+        <!-- Start Button -->
+        <use href="#pushbutton" x="460" y="550"/>
+        <text x="460" y="575" text-anchor="middle" class="component-text">START</text>
+        <text x="460" y="590" text-anchor="middle" class="pin-text">BTN</text>
+        <line x1="470" y1="550" x2="530" y2="550" stroke="black" stroke-width="2"/>
+        <line x1="530" y1="550" x2="530" y2="450" stroke="black" stroke-width="2"/>
+        <line x1="450" y1="550" x2="430" y2="550" stroke="black" stroke-width="2"/>
+        <line x1="430" y1="550" x2="430" y2="800" stroke="black" stroke-width="2"/>
+        <text x="385" y="545" text-anchor="end" class="pin-text">10kΩ</text>
+        <rect x="395" y="545" width="30" height="10" fill="none" stroke="black" stroke-width="1"/>
+        <line x1="395" y1="550" x2="350" y2="550" stroke="black" stroke-width="1"/>
+        <line x1="350" y1="550" x2="350" y2="50" stroke="black" stroke-width="1"/>
+        <circle cx="350" cy="550" r="3" fill="black"/>
+        
+        <!-- Pixy Camera -->
+        <rect x="850" y="500" width="120" height="100" fill="none" stroke="black" stroke-width="2"/>
+        <text x="910" y="490" text-anchor="middle" class="component-text">PIXY CAM</text>
+        <text x="910" y="550" text-anchor="middle" class="component-text">CMUcam5</text>
+        
+        <!-- Pixy SPI connections -->
+        <line x1="830" y1="520" x2="850" y2="520" stroke="black" stroke-width="2"/>
+        <text x="825" y="523" text-anchor="end" class="pin-text">MISO</text>
+        
+        <line x1="830" y1="540" x2="850" y2="540" stroke="black" stroke-width="2"/>
+        <text x="825" y="543" text-anchor="end" class="pin-text">MOSI</text>
+        
+        <line x1="830" y1="560" x2="850" y2="560" stroke="black" stroke-width="2"/>
+        <text x="825" y="563" text-anchor="end" class="pin-text">SCK</text>
+        
+        <line x1="830" y1="580" x2="850" y2="580" stroke="black" stroke-width="2"/>
+        <text x="825" y="583" text-anchor="end" class="pin-text">SS</text>
+        
+        <line x1="910" y1="500" x2="910" y2="480" stroke="black" stroke-width="2"/>
+        <text x="915" y="478" text-anchor="start" class="pin-text">5V</text>
+        
+        <line x1="910" y1="600" x2="910" y2="620" stroke="black" stroke-width="2"/>
+        <text x="915" y="630" text-anchor="start" class="pin-text">GND</text>
+        
+        <!-- Connect Pixy SPI to Arduino -->
+        <line x1="830" y1="520" x2="780" y2="520" stroke="purple" stroke-width="1"/>
+        <line x1="780" y1="520" x2="780" y2="490" stroke="purple" stroke-width="1"/>
+        <line x1="780" y1="490" x2="750" y2="490" stroke="purple" stroke-width="1"/>
+        
+        <line x1="830" y1="540" x2="800" y2="540" stroke="purple" stroke-width="1"/>
+        <line x1="800" y1="540" x2="800" y2="470" stroke="purple" stroke-width="1"/>
+        <line x1="800" y1="470" x2="750" y2="470" stroke="purple" stroke-width="1"/>
+        
+        <line x1="830" y1="560" x2="810" y2="560" stroke="purple" stroke-width="1"/>
+        <line x1="810" y1="560" x2="810" y2="510" stroke="purple" stroke-width="1"/>
+        <line x1="810" y1="510" x2="750" y2="510" stroke="purple" stroke-width="1"/>
+        
+        <line x1="830" y1="580" x2="820" y2="580" stroke="purple" stroke-width="1"/>
+        <line x1="820" y1="580" x2="820" y2="330" stroke="purple" stroke-width="1"/>
+        <line x1="820" y1="330" x2="770" y2="330" stroke="purple" stroke-width="1"/>
+        
+        <!-- Pixy power from Arduino -->
+        <line x1="910" y1="480" x2="910" y2="290" stroke="black" stroke-width="2"/>
+        <line x1="910" y1="290" x2="770" y2="290" stroke="black" stroke-width="2"/>
+        <circle cx="910" cy="290" r="3" fill="black"/>
+        
+        <!-- L298N Motor Driver -->
+        <rect x="150" y="350" width="160" height="200" fill="none" stroke="black" stroke-width="2"/>
+        <text x="230" y="340" text-anchor="middle" class="component-text">L298N</text>
+        
+        <!-- L298N pins -->
+        <line x1="130" y1="390" x2="150" y2="390" stroke="black" stroke-width="2"/>
+        <text x="125" y="393" text-anchor="end" class="pin-text">ENB</text>
+        
+        <line x1="130" y1="430" x2="150" y2="430" stroke="black" stroke-width="2"/>
+        <text x="125" y="433" text-anchor="end" class="pin-text">IN3</text>
+        
+        <line x1="130" y1="450" x2="150" y2="450" stroke="black" stroke-width="2"/>
+        <text x="125" y="453" text-anchor="end" class="pin-text">IN4</text>
+        
+        <line x1="230" y1="330" x2="230" y2="350" stroke="black" stroke-width="2"/>
+        <text x="235" y="328" text-anchor="start" class="pin-text">VS</text>
+        
+        <line x1="230" y1="550" x2="230" y2="570" stroke="black" stroke-width="2"/>
+        <text x="235" y="580" text-anchor="start" class="pin-text">GND</text>
+        
+        <line x1="310" y1="410" x2="330" y2="410" stroke="black" stroke-width="2"/>
+        <text x="335" y="413" text-anchor="start" class="pin-text">OUT3</text>
+        
+        <line x1="310" y1="430" x2="330" y2="430" stroke="black" stroke-width="2"/>
+        <text x="335" y="433" text-anchor="start" class="pin-text">OUT4</text>
+        
+        <!-- Connect L298N to 12V bus -->
+        <line x1="230" y1="330" x2="230" y2="80" stroke="black" stroke-width="2"/>
+        <circle cx="230" cy="80" r="3" fill="black"/>
+        
+        <!-- DC Motor -->
+        <circle cx="400" cy="420" r="30" fill="none" stroke="black" stroke-width="2"/>
+        <text x="400" y="425" text-anchor="middle" class="component-text">M</text>
+        <line x1="370" y1="410" x2="330" y2="410" stroke="black" stroke-width="2"/>
+        <line x1="370" y1="430" x2="330" y2="430" stroke="black" stroke-width="2"/>
+        
+        <!-- Servo Motor -->
+        <rect x="900" y="370" width="80" height="60" fill="none" stroke="black" stroke-width="2"/>
+        <text x="940" y="360" text-anchor="middle" class="component-text">SERVO</text>
+        <text x="940" y="405" text-anchor="middle" class="component-text">SG90</text>
+        
+        <line x1="880" y1="390" x2="900" y2="390" stroke="black" stroke-width="2"/>
+        <text x="875" y="393" text-anchor="end" class="pin-text">PWM</text>
+        
+        <line x1="940" y1="370" x2="940" y2="350" stroke="black" stroke-width="2"/>
+        <line x1="940" y1="430" x2="940" y2="450" stroke="black" stroke-width="2"/>
+        
+        <!-- Connect servo VCC to 5V from regulator -->
+        <line x1="940" y1="350" x2="940" y2="50" stroke="red" stroke-width="2"/>
+        <circle cx="940" cy="50" r="3" fill="red"/>
+        <text x="945" y="340" class="pin-text" fill="red">5V from REG</text>
+        
+        <!-- Ultrasonic sensors -->
+        <!-- Right sensor -->
+        <rect x="1000" y="150" width="100" height="80" fill="none" stroke="black" stroke-width="2"/>
+        <text x="1050" y="140" text-anchor="middle" class="component-text">HC-SR04</text>
+        <text x="1050" y="165" text-anchor="middle" class="pin-text">DERECHO</text>
+        
+        <line x1="980" y1="170" x2="1000" y2="170" stroke="black" stroke-width="2"/>
+        <text x="975" y="173" text-anchor="end" class="pin-text">VCC</text>
+        
+        <line x1="980" y1="190" x2="1000" y2="190" stroke="black" stroke-width="2"/>
+        <text x="975" y="193" text-anchor="end" class="pin-text">TRIG</text>
+        
+        <line x1="980" y1="210" x2="1000" y2="210" stroke="black" stroke-width="2"/>
+        <text x="975" y="213" text-anchor="end" class="pin-text">ECHO</text>
+        
+        <line x1="1050" y1="230" x2="1050" y2="250" stroke="black" stroke-width="2"/>
+        
+        <!-- Left sensor -->
+        <rect x="1150" y="150" width="100" height="80" fill="none" stroke="black" stroke-width="2"/>
+        <text x="1200" y="140" text-anchor="middle" class="component-text">HC-SR04</text>
+        <text x="1200" y="165" text-anchor="middle" class="pin-text">IZQUIERDO</text>
+        
+        <line x1="1130" y1="170" x2="1150" y2="170" stroke="black" stroke-width="2"/>
+        <text x="1125" y="173" text-anchor="end" class="pin-text">VCC</text>
+        
+        <line x1="1130" y1="190" x2="1150" y2="190" stroke="black" stroke-width="2"/>
+        <text x="1125" y="193" text-anchor="end" class="pin-text">TRIG</text>
+        
+        <line x1="1130" y1="210" x2="1150" y2="210" stroke="black" stroke-width="2"/>
+        <text x="1125" y="213" text-anchor="end" class="pin-text">ECHO</text>
+        
+        <line x1="1200" y1="230" x2="1200" y2="250" stroke="black" stroke-width="2"/>
+        
+        <!-- 5V connections from Arduino for sensors and Pixy -->
+        <line x1="770" y1="290" x2="820" y2="290" stroke="black" stroke-width="2"/>
+        <line x1="820" y1="290" x2="820" y2="120" stroke="black" stroke-width="2"/>
+        <line x1="820" y1="120" x2="1300" y2="120" stroke="black" stroke-width="2"/>
+        <text x="1000" y="115" class="component-text">5V from Arduino</text>
+        
+        <line x1="980" y1="170" x2="820" y2="170" stroke="black" stroke-width="2"/>
+        <line x1="1130" y1="170" x2="820" y2="170" stroke="black" stroke-width="2"/>
+        <circle cx="820" cy="170" r="3" fill="black"/>
+        <circle cx="820" cy="120" r="3" fill="black"/>
+        
+        <!-- Ground rail -->
+        <line x1="50" y1="255" x2="50" y2="800" stroke="black" stroke-width="3"/>
+        <line x1="50" y1="800" x2="1300" y2="800" stroke="black" stroke-width="3"/>
+        <text x="650" y="795" class="component-text">GROUND BUS</text>
+        
+        <!-- Ground connections -->
+        <line x1="770" y1="310" x2="800" y2="310" stroke="black" stroke-width="2"/>
+        <line x1="800" y1="310" x2="800" y2="800" stroke="black" stroke-width="2"/>
+        <line x1="230" y1="570" x2="230" y2="800" stroke="black" stroke-width="2"/>
+        <line x1="250" y1="230" x2="250" y2="800" stroke="black" stroke-width="2"/>
+        <line x1="1050" y1="250" x2="1050" y2="800" stroke="black" stroke-width="2"/>
+        <line x1="1200" y1="250" x2="1200" y2="800" stroke="black" stroke-width="2"/>
+        <line x1="940" y1="450" x2="940" y2="800" stroke="black" stroke-width="2"/>
+        <line x1="610" y1="623" x2="610" y2="800" stroke="black" stroke-width="2"/>
+        <line x1="910" y1="620" x2="910" y2="800" stroke="black" stroke-width="2"/>
+        
+        <!-- Ground symbols -->
+        <use href="#ground" x="50" y="800"/>
+        <use href="#ground" x="250" y="800"/>
+        <use href="#ground" x="800" y="800"/>
+        <use href="#ground" x="1050" y="800"/>
+        <use href="#ground" x="1200" y="800"/>
+        <use href="#ground" x="940" y="800"/>
+        <use href="#ground" x="910" y="800"/>
+        
+        <!-- Signal connections -->
+        <!-- Motor control signals (UPDATED PINS) -->
+        <line x1="130" y1="390" x2="100" y2="390" stroke="blue" stroke-width="1"/>
+        <line x1="100" y1="390" x2="100" y2="370" stroke="blue" stroke-width="1"/>
+        <line x1="100" y1="370" x2="530" y2="370" stroke="blue" stroke-width="1"/>
+        
+        <line x1="130" y1="430" x2="80" y2="430" stroke="blue" stroke-width="1"/>
+        <line x1="80" y1="430" x2="80" y2="410" stroke="blue" stroke-width="1"/>
+        <line x1="80" y1="410" x2="530" y2="410" stroke="blue" stroke-width="1"/>
+        
+        <line x1="130" y1="450" x2="60" y2="450" stroke="blue" stroke-width="1"/>
+        <line x1="60" y1="450" x2="60" y2="390" stroke="blue" stroke-width="1"/>
+        <line x1="60" y1="390" x2="530" y2="390" stroke="blue" stroke-width="1"/>
+        
+        <!-- Servo signal -->
+        <line x1="880" y1="390" x2="800" y2="390" stroke="orange" stroke-width="1"/>
+        <line x1="800" y1="390" x2="800" y2="430" stroke="orange" stroke-width="1"/>
+        <line x1="800" y1="430" x2="750" y2="430" stroke="orange" stroke-width="1"/>
+        
+        <!-- Ultrasonic signals -->
+        <line x1="980" y1="190" x2="850" y2="190" stroke="green" stroke-width="1"/>
+        <line x1="850" y1="190" x2="850" y2="270" stroke="green" stroke-width="1"/>
+        <line x1="850" y1="270" x2="510" y2="270" stroke="green" stroke-width="1"/>
+        <line x1="510" y1="270" x2="510" y2="290" stroke="green" stroke-width="1"/>
+        <line x1="510" y1="290" x2="530" y2="290" stroke="green" stroke-width="1"/>
+        
+        <line x1="980" y1="210" x2="830" y2="210" stroke="green" stroke-width="1"/>
+        <line x1="830" y1="210" x2="830" y2="280" stroke="green" stroke-width="1"/>
+        <line x1="830" y1="280" x2="520" y2="280" stroke="green" stroke-width="1"/>
+        <line x1="520" y1="280" x2="520" y2="310" stroke="green" stroke-width="1"/>
+        <line x1="520" y1="310" x2="530" y2="310" stroke="green" stroke-width="1"/>
+        
+        <line x1="1130" y1="190" x2="1110" y2="190" stroke="green" stroke-width="1"/>
+        <line x1="1110" y1="190" x2="1110" y2="100" stroke="green" stroke-width="1"/>
+        <line x1="1110" y1="100" x2="490" y2="100" stroke="green" stroke-width="1"/>
+        <line x1="490" y1="100" x2="490" y2="330" stroke="green" stroke-width="1"/>
+        <line x1="490" y1="330" x2="530" y2="330" stroke="green" stroke-width="1"/>
+        
+        <line x1="1130" y1="210" x2="1090" y2="210" stroke="green" stroke-width="1"/>
+        <line x1="1090" y1="210" x2="1090" y2="110" stroke="green" stroke-width="1"/>
+        <line x1="1090" y1="110" x2="470" y2="110" stroke="green" stroke-width="1"/>
+        <line x1="470" y1="110" x2="470" y2="350" stroke="green" stroke-width="1"/>
+        <line x1="470" y1="350" x2="530" y2="350" stroke="green" stroke-width="1"/>
+        
+        <!-- Labels -->
+        <text x="50" y="700" class="component-text">Conexiones Actualizadas:</text>
+        <text x="50" y="720" class="pin-text">Motor: ENB→D6, IN3→D8, IN4→D7</text>
+        <text x="50" y="735" class="pin-text">Servo: PWM→D9, VCC→Salida Regulador 5V</text>
+        <text x="50" y="750" class="pin-text">HC-SR04 Der: TRIG→D2, ECHO→D3</text>
+        <text x="50" y="765" class="pin-text">HC-SR04 Izq: TRIG→D4, ECHO→D5</text>
+        <text x="50" y="780" class="pin-text">Pixy Cam: SPI (MISO→D12, MOSI→D11, SCK→D13, SS→A0)</text>
+        <text x="450" y="720" class="pin-text">Botón Start: D10 (con pull-up de 10kΩ)</text>
+        <text x="450" y="735" class="pin-text">Arduino: Alimentación por DC Jack (12V)</text>
+        <text x="450" y="750" class="pin-text">Regulador: IN→12V (después del switch), OUT→5V para servo</text>
+        
+        <!-- Junction dots -->
+        <circle cx="180" cy="80" r="3" fill="black"/>
+        <circle cx="230" cy="80" r="3" fill="black"/>
+        <circle cx="400" cy="80" r="3" fill="black"/>
+        <circle cx="820" cy="170" r="3" fill="black"/>
+        <circle cx="820" cy="120" r="3" fill="black"/>
+        <circle cx="940" cy="50" r="3" fill="red"/>
+        <circle cx="50" cy="800" r="3" fill="black"/>
+        <circle cx="250" cy="800" r="3" fill="black"/>
+        <circle cx="800" cy="800" r="3" fill="black"/>
+        <circle cx="940" cy="800" r="3" fill="black"/>
+        <circle cx="910" cy="290" r="3" fill="black"/>
+        <circle cx="350" cy="550" r="3" fill="black"/>
+        <circle cx="430" cy="800" r="3" fill="black"/>
+    </svg>
+</body>
+</html>

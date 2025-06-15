@@ -101,6 +101,21 @@ With this we managed to complete the challenge, which can be seen through the li
 https://youtube.com/shorts/cBEeWWgM5bk
 
 
+In the second challenge, we combined the Pixy camera with ultrasound. The Pixy camera's function would be to detect the red and green blocks. This would allow the car to move toward the blocks and then turn in the direction determined by the block's color.
+
+The ultrasound would have the same function as in Challenge 1: to look for an opening for the car to turn.
+
+Problems in both challenges:
+
+In the first challenge, the main problem was the light illuminating the track, which caused the Pixy camera to misdetect colors or even ignore them, confusing the Arduino.
+
+We managed to solve this problem by using only ultrasound and disabling the Pixy camera for this challenge.
+
+![Pixy-2 1-Smart-Vision-Sensor-Object-Tracking-Camera](https://github.com/user-attachments/assets/c38f0298-1c55-4a4a-8b60-57655285e606)
+
+The second problem was the car's weight, as the battery we were using weighed approximately 500 grams. We solved this by replacing it with a lighter one, weighing 137 grams.
+
+![716CISc+2RL _AC_SX466_](https://github.com/user-attachments/assets/ae512b6e-a400-4746-97d7-0c506d0fb135)
 
    
 

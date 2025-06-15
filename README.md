@@ -123,6 +123,19 @@ The electrical diagrams for the car are shown below.
 
 ![Electirc chart v2, definitive (1)](https://github.com/user-attachments/assets/0427b66a-db7a-4d6c-b9de-efaaff71afff)
 
+The circuit starts with a 12V battery feeding all of the parts. For safety, a main power switch (SW1) enables one or off the whole circuit. The LM2596 step-down regulator is used to convert the 12V supply to a stable 5V output given that some parts need a lower voltage level. Without risking overvoltage damage, this controlled 5V is essential for powering sensitive devices including sensors, the servo motor, and Pixy Cam.
+
+Acting as the main controller of the project is the Arduino UNO R4 WiFi. Directly from the 12V source, the Arduino is driven via its DC connector so ensuring it has enough power even if several accessories are running. Two HC-SR04 ultrasonic sensors are used for distance measurement; one sensor has trigger and echo pins wired to digital pins D2 and D4; another has pins D3 and D5. Moreover, a start button wired to digital pin D10 offers a dependable approach to safely start the action by means of a built-in 10k pull-up resistor.
+
+Concurrent with these sensor links, the circuit drives a motor through an L298N motor driver module. The Arduino controls the enable input and the motor direction inputs (IN3 and IN4) using digital pins D6, D7, and D8. This design is vital for any mobile robotic system because it lets the motor travel in different speeds and directions. This motor control's simplicity and strength make it perfect for applications needing variable movement.
+
+Another important element is the Pixy Cam (CMUcam5), which offers visual processing ability. Through an SPI connection, the Pixy Cam contacts with the Arduino; the MOSI, MISO, and SCK signals are linked to digital pins D11, D12, and D13 respectively, with a dedicated Slave Select (SS) line on pin A0. Real-time picture processing is made possible by this fast communication channel, hence allowing the system to carry out operations such object tracking or visual navigation. Moreover, an SG90 (often) is included to communicate with the mechanical parts, receiving control signals on a PWM pin and working at 5V from the regulator.
+
+The precise pin assignments for sensors, motor drivers, and the camera together with the deliberate distribution of energy from the strong 12V supply to the precisely controlled 5Vas emphasize the thoughtful integration and equilibrium needed in such an arrangement. Effective mechanical motion control is provided by this design along with sensor data fusing to help with object tracking, obstacle detection, and several user-controllable capabilities.
+
+![images](https://github.com/user-attachments/assets/ee1032ac-dd8a-4fbe-8475-3255ff89e473)
+
+
 
    
 

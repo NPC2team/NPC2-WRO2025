@@ -25,9 +25,10 @@ Pixy cam: ![Pixy-2 1-Smart-Vision-Sensor-Object-Tracking-Camera](https://github.
     Photo of ultrasonic sensor: ![Ultrasonic-Sensor (1)](https://github.com/user-attachments/assets/d6b3bff4-a4e4-48a0-98d6-80e1829464db)
 
    
-4. To power all this we use the Zeee battery Shorty of 2200 mAh, of 2 Lithium polymer ,from Zeee. This battery weight 98 g. It does 7,4V, and its dimmensions are 73mm*34mm*18mm.
+4. To power all this we use the Zeee battery Shorty of 2200 mAh, of 3 Lithium polymer ,from Zeee. This battery weight 137 g. It does 11.1V, and its dimmensions are 75mm*34mm*26.5mm.
 
-   Battery: ![71juzktL4dL _AC_UF894,1000_QL80_](https://github.com/user-attachments/assets/ed4bb08f-dce2-4e19-8e15-5ce876a3e188)
+   Battery: ![71m+EHRrMrL](https://github.com/user-attachments/assets/fa1c7f04-95cc-4ecc-a46f-69529cfb2c18)
+
 
 5. To power the motor, and regulates their speed and voltage, we use an H-Bridge, especially the L298N that is a dual H-bridge motor driver module designed to control the speed and direction of DC and stepper motors. It operates within a voltage range of 5V to 35V. We connect the H-Bridge to the Arduino, using the L298N as an intermediary between the Arduino R4 and the motors like the servomotor.
 

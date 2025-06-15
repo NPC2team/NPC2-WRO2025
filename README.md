@@ -117,6 +117,12 @@ The second problem was the car's weight, as the battery we were using weighed ap
 
 ![716CISc+2RL _AC_SX466_](https://github.com/user-attachments/assets/ae512b6e-a400-4746-97d7-0c506d0fb135)
 
+Electrical Diagrams
+
+The electrical diagrams for the car are shown below.
+
+
+
    
 
 

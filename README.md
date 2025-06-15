@@ -2,10 +2,10 @@ NPC2 is a robotics team from Caracas, Venezuela nationally representing Colegio 
 Team Picture:![picture of the team](https://github.com/user-attachments/assets/0116211c-a6b6-41da-97f7-951bd6472900)
 From left to right: Juan Ignacio González Cardesin,Andrea Jaimes Bselis,Leonardo Carrasquero Recchuiti.
 We are competing in the future engineers category of the W.R.O.
-The future engineers category consist in 3 mayor challenges:
-The first challenge consist that the car has to do 3 complete laps in the track for then stop in the same place the car started.
-The second challenge consist that the car will has to do laps but in these case there are some obstacles that depending on the color, the car will have to go left or right.
-The last challenge consist that the car will started in a parking slot and it has to do the second challenge again, but in this case  the car will have to stop in the parking slot in parallel.
+The future engineers category consists in 3 mayor challenges:
+The first challenge consists that the car has to do 3 complete laps in the track for then stop in the same place the car started.
+The second challenge consists that the car will has to do laps but in these case there are some obstacles that depending on the color, the car will have to go left or right.
+The last challenge consists that the car will started in a parking slot and it has to do the second challenge again, but in this case  the car will have to stop in the parking slot in parallel.
 
 For this the first thing we do, was to organize different things for example the materials, the chasis we will use, and in what microcontroller we will program.
 After a long period of discussion we have already the different materials we will use that are:
@@ -58,7 +58,18 @@ After that we start disarming, destroying, and putting a lot of things in the ca
 
 Example of how it should look the proccess in Powerpoint: ![Screenshot 2025-06-12 224532](https://github.com/user-attachments/assets/95bb5eab-1ceb-4f80-9074-d34f4e8d0cf4)
 
-After testing different components like the ESP32 or the T.o.F. sensors, the final car just used the previous materials and it looks like this:
+The first thing we do to the original chassis was to cut the sides that were near the backwheels and cut the chassis in half. We did this so we have less lenght and avoid the problem of being near the maximum lenght.
+
+We cut the sides of the chassis so we could add a mechanism that makes possible that the 2 backwheels only use 1 DC motor.
+
+Photo of the parts that were about top be cut off:
+![hola](https://github.com/user-attachments/assets/2bcc6786-80e5-4b6b-9bda-23d1080794a0)
+
+Photo after the proccess of the car´s adaptatio:
+![Car after adaptation](https://github.com/user-attachments/assets/67911118-9095-4905-9a5a-4999bb856103)
+
+
+After putting everything where they must go, the car ends like this:
 
 ![Back of the vehicle](https://github.com/user-attachments/assets/d84f18ec-d28c-4e1a-b476-ad0eacad9e0f)}
 
@@ -77,9 +88,17 @@ After testing different components like the ESP32 or the T.o.F. sensors, the fin
 
 ![Vehicle side1](https://github.com/user-attachments/assets/6e4e4bbf-1efd-4bb6-a8ce-6042c837e99a)
 
+When we finish building the car, we'll be able to learn about possible solutions to the challenges.
 
+For the first challenge, we initially planned to do it only with the Pixy camera. The camera signals would be orange and blue, and depending on the color, Crazy Diamond (our car) would spin clockwise or counterclockwise. At the same time, upon detecting the color, a list would appear with the number of spins made.
+However, we realized it was better to use the ultrasonic sensors for the first challenge, as they allow you to program a code that detects an opening and rotates toward it.
+To reinforce the ultrasound idea, we realized it was easier to correct it every time it rotated. This was difficult with the Pixy camera.
 
+![8e7409_c0e539c39a5e4f6d9af293265917e344~mv2](https://github.com/user-attachments/assets/227bbb83-842f-42a5-80a2-90cf01292889)
 
+With this we managed to complete the challenge, which can be seen through the link on YouTube.
+
+https://youtube.com/shorts/cBEeWWgM5bk
 
 
 

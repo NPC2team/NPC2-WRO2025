@@ -121,6 +121,7 @@ Electrical Diagrams
 
 The electrical diagrams for the car are shown below.
 
+![Electirc chart v2, definitive (1)](https://github.com/user-attachments/assets/0427b66a-db7a-4d6c-b9de-efaaff71afff)
 
 
    

@@ -1,3 +1,5 @@
+## Our Team
+
 NPC2 is a robotics team from Caracas, Venezuela nationally representing Colegio Jefferson in the World Robotics Olimpiad. We have a car named Crazy Diamond that has one motor, one servomotor, one PixyCam2, two ultrasonic sensors, one Arduino R4, one voltage regulator, one H bridge, one 11.1 v battery, and an ackerman sterring wheel.
 Team Picture:![picture of the team](https://github.com/user-attachments/assets/0116211c-a6b6-41da-97f7-951bd6472900)
 From left to right: Juan Ignacio González Cardesin,Andrea Jaimes Bselis,Leonardo Carrasquero Recchuiti.
@@ -6,6 +8,8 @@ The future engineers category consists in 3 mayor challenges:
 The first challenge consists that the car has to do 3 complete laps in the track for then stop in the same place the car started.
 The second challenge consists that the car will has to do laps but in these case there are some obstacles that depending on the color, the car will have to go left or right.
 The last challenge consists that the car will started in a parking slot and it has to do the second challenge again, but in this case  the car will have to stop in the parking slot in parallel.
+
+## Materials
 
 For this the first thing we do, was to organize different things for example the materials, the chasis we will use, and in what microcontroller we will program.
 After a long period of discussion we have already the different materials we will use that are:
@@ -47,12 +51,15 @@ Pixy cam: ![Pixy-2 1-Smart-Vision-Sensor-Object-Tracking-Camera](https://github.
    Mechanism of the DC motor:
    ![Screenshot 2025-06-12 222236](https://github.com/user-attachments/assets/89c35461-acf2-4244-ba4f-b824a8509724)
 
+
 Knowing this, you may wonder what is the chasis that we are going to use, after all is a very important part of the vehicle because without it, Crazy Diamond wouldn´t exist at the first place.
 Well the chasis that we used is a chasis of metal that already had the ackerman steering wheel, this chasis can be bought from Amazon. The dimensions of the original chasis are of 337*191*131mm.
 The linnk of the chasis is: https://www.amazon.com/-/es/inteligente-codificado-estructura-anticolisi%C3%B3n-triangular/dp/B0CWTZC5FQ/ref=sr_1_7?crid=3D9Y448EALARV&dib=eyJ2IjoiMSJ9.bCJjQ8c7nkW4Nwuakx-PQ0JSlsAtqFOYd4IfrV90OSppyMg7DebPeTKPTXEKDJlfPcESpcsJSoPtTjKUi3ovc-TNKSxQ_JUGRNZ3x5tnm776BvoPmyBzOIg2gmtpw0X2vn1QENXU6xpZ87O_cs2MhxIkoNzD6WcaPQV7HH_46VwBi9P1fDxEZxWsTRry3HO04tfUn8vBew1MA0w_9aZ2eg.bfHSBu8WWMGvrkC-OKG4-P4m9GnF3JpKHgq5pyXknh0&dib_tag=se&keywords=ackerman+steering+kit&qid=1749764977&sprefix=ackerman+st%2Caps%2C124&sr=8-7
 
 
 Photo of the chasis: ![61YIGLu0T0L _AC_SL1500_](https://github.com/user-attachments/assets/3b866ae3-cc4d-49d3-b05d-4d8c8e8187c9)
+
+## Car's Construccion
 
 After that we start disarming, destroying, and putting a lot of things in the car. Adapting the car, evolving it into a wonderful constructions, putting the pieces together, and starting to test and view possible ideas for the challenges.
 
@@ -88,6 +95,8 @@ After putting everything where they must go, the car ends like this:
 
 ![Vehicle side1](https://github.com/user-attachments/assets/6e4e4bbf-1efd-4bb6-a8ce-6042c837e99a)
 
+## Challenge Problem Solving
+
 When we finish building the car, we'll be able to learn about possible solutions to the challenges.
 
 For the first challenge, we initially planned to do it only with the Pixy camera. The camera signals would be orange and blue, and depending on the color, Crazy Diamond (our car) would spin clockwise or counterclockwise. At the same time, upon detecting the color, a list would appear with the number of spins made.
@@ -117,7 +126,7 @@ The second problem was the car's weight, as the battery we were using weighed ap
 
 ![716CISc+2RL _AC_SX466_](https://github.com/user-attachments/assets/ae512b6e-a400-4746-97d7-0c506d0fb135)
 
-Electrical Diagrams
+## Electrical Design
 
 The electrical diagrams for the car are shown below.
 

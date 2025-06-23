@@ -136,7 +136,15 @@ The precise pin assignments for sensors, motor drivers, and the camera together 
 ![images](https://github.com/user-attachments/assets/ee1032ac-dd8a-4fbe-8475-3255ff89e473)
 
 
+ACKEMAN STEERING MECHANISM:
 
+An Ackerman steering mechanism is designed to guarantee that a vehicle's front wheels turn at the appropriate angles during a turn, the Ackermann steering mechanism is a cunning mechanical device that enables smooth and effective cornering that helps to avoid tire slippage.
+Ackermann steering geometry is a smart configuration of linkages in vehicles designed to guarantee that during a turn the interior and outer front wheels trace separate circular paths. This is because the inner wheel should spin more quickly than the outer wheel to avoid tire scrubbing or slipping, as we said before.
+
+![Figure-1](https://github.com/user-attachments/assets/183b187d-b60b-417c-9dff-150b1c3031a8)
+This works because the inner front wheel has to move a closer radius than the outer front wheel as a car turns. In view of the fact if both wheels were rotated at the same angle, wear would occur as the tires scraped against the road, which also reduces control. The Ackermann mechanism solve this issue by arranging the steering angles of each wheel in a way that employs trapezoids to form links. 
+
+We use the Ackerman steering wheel because it reduces tire wear, it improves the handling, and it help the car take directions combined with the servo motor.
    
 
 

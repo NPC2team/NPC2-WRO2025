@@ -36,7 +36,7 @@ Pixy cam: ![Pixy-2 1-Smart-Vision-Sensor-Object-Tracking-Camera](https://github.
 
 3. To help us know where, when, and to mantain position. We will use ultrasonic sensors that uses sonar to measure the distance between itself and an object. It can measure between 2cm to 400 cm, and it operates 40 kHz. To complete the challenges, we used 2 ultrasonic sensors that are in the sides of the car, and are program in way that they will be like a second confirmation of when the car has to cross.
 
-    Photo of ultrasonic sensor: ![Ultrasonic-Sensor (1)](https://github.com/user-attachments/assets/d6b3bff4-a4e4-48a0-98d6-80e1829464db)
+    3D model of ultrasonic sensor: ![Ultrasonic-Sensor (1)](https://github.com/user-attachments/assets/d6b3bff4-a4e4-48a0-98d6-80e1829464db)
 
    
 4. To power all this we use the Zeee battery Shorty of 2200 mAh, of 3 Lithium polymer ,from Zeee. This battery weight 137 g. It does 11.1V, and its dimmensions are 75mm*34mm*26.5mm.

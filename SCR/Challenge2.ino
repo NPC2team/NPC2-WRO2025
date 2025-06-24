@@ -21,7 +21,7 @@
 // Parámetros generales
 #define MOTOR_SPEED 110              // Velocidad reducida para mejor control
 #define MOTOR_SPEED_EVASION 100      // Velocidad durante evasión
-#define APERTURA_UMBRAL 70           // 70cm
+#define APERTURA_UMBRAL 60           // 60cm
 #define TIEMPO_GIRO 1500             // ms
 #define DELAY_POST_GIRO 1200         // ms
 #define NUM_LECTURAS 3               // Número de lecturas para confirmar
@@ -29,7 +29,7 @@
 #define TIEMPO_AVANCE_FINAL 800      // ms - tiempo de avance después del último giro
 
 // Parámetros de navegación visual
-#define GANANCIA_CAMARA 0.0          // Qué tan agresivo seguir el obstáculo
+#define GANANCIA_CAMARA 0.1          // Qué tan agresivo seguir el obstáculo
 #define DISTANCIA_EVASION 25         // cm - cuándo empezar a evadir
 #define ANCHO_MIN_OBSTACULO 15       // píxeles - tamaño mínimo para considerar válido
 #define CENTRO_CAMARA 158            // Centro horizontal de la Pixy (315/2)

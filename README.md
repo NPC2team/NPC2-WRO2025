@@ -146,8 +146,8 @@ The second problem was the car's weight, as the battery we were using weighed ap
 ## Electrical Design
 
 The electrical diagrams for the car are shown below.
+![Final electric diagram with 3 ultrasonic sensors](https://github.com/user-attachments/assets/a63ccc0c-6770-41c2-a5b6-ffa303ebe780)
 
-![Electirc chart v2, definitive (1)](https://github.com/user-attachments/assets/0427b66a-db7a-4d6c-b9de-efaaff71afff)
 
 The circuit starts with a 12V battery that feeds all of the parts. For safety, a main power switch (SW1) turns on or off the whole circuit. The LM2596 step-down regulator is used to convert the 12V supply to a stable 5V output given that some parts need a lower voltage level. These controlled 5 volts are essential so we can power sensitive devices including sensors, the servo motor, and the pixy cam without risking overvoltage damage.
 
@@ -160,6 +160,9 @@ Another important element is the Pixy Cam (CMUcam5), which offers visual process
 The precise pin assignments for sensors, motor drivers, and the camera together with the deliberate distribution of energy from the strong 12V supply to the precisely controlled 5V emphasize the thoughtful integration and equilibrium needed in such an arrangement. Effective mechanical motion control is provided by this design along with sensor data fusing to help with object tracking, obstacle detection, and several user-controllable capabilities.
 
 ![images](https://github.com/user-attachments/assets/ee1032ac-dd8a-4fbe-8475-3255ff89e473)
+
+For more details you can check the document: [Diagram Explination](https://github.com/NPC2team/NPC2-WRO2025/blob/master/Schemes/Detailed%20Explanation%20of%20the%20Final%20Flowchart.pdf)
+
 
 
 ## ACKEMAN STEERING MECHANISM

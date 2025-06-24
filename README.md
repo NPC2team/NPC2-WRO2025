@@ -107,9 +107,9 @@ After putting everything where they must go, the car ends like this:
 
 When we finish building the car, we'll be able to learn about possible solutions to the challenges.
 
-For the first challenge, we initially planned to do it only with the Pixy camera. The camera signals would be orange and blue, and depending on the color, Crazy Diamond (our car) would spin clockwise or counterclockwise. At the same time, upon detecting the color, a list would appear with the number of spins made.
+For the first challenge, we initially planned to do it only with the Pixy camera. The camera signals would be orange and blue, and depending on the color, Crazy Diamond (our car) would spin clockwise or counterclockwise. At the same time, upon detecting the color, a variable will count the number of turns made.
 However, we realized it was better to use the ultrasonic sensors for the first challenge, as they allow you to program a code that detects an opening and rotates toward it.
-To reinforce the ultrasound idea, we realized it was easier to correct it every time it rotated. This was difficult with the Pixy camera.
+To reinforce the ultrasound idea, we realized it was easier to correct it every time it rotated. This was difficult with the Pixy camera. We also tried to use the VL53L0x or TOF sensor , but we ultimately decided against it because of non consistent mesuerments when the car was in movement.  We made a document that compared the ultrasonic sensors and the TOF.
 
 ![8e7409_c0e539c39a5e4f6d9af293265917e344~mv2](https://github.com/user-attachments/assets/227bbb83-842f-42a5-80a2-90cf01292889)
 

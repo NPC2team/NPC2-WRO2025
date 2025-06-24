@@ -265,7 +265,6 @@ void girarDerecha() {
     
     // Detener completamente
     detener();
-    delay(1000000);
     Serial.println("¡Carrera completada!");
   }
 }
@@ -361,14 +360,14 @@ void aplicarCorreccionProporcional() {
         }
         
         // Mantener movimiento
-        digitalWrite(IN3, HIGH);
-        digitalWrite(IN4, LOW);
+        digitalWrite(IN3, LOW);
+        digitalWrite(IN4, HIGH);
         analogWrite(ENB, MOTOR_SPEED);
         
         delay(10);
       }
       
-      // Enderezar servo
+      Enderezar servo
       servoMotor.write(SERVO_CENTER);
       
     } 

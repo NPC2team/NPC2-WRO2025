@@ -43,7 +43,6 @@ Pixy cam: ![Pixy-2 1-Smart-Vision-Sensor-Object-Tracking-Camera](https://github.
 
    Battery: ![71m+EHRrMrL](https://github.com/user-attachments/assets/fa1c7f04-95cc-4ecc-a46f-69529cfb2c18)
    
-[Why Zeee battery 2200 mAh?](https://github.com/NPC2team/NPC2-WRO2025/blob/master/Energy%20explanation/DETAILED%20POWER%20CONSUMPTION%20ANALYSIS.pdf)
 
 6. To power the motor, and regulates their speed and voltage, we use an H-Bridge, especially the L298N that is a dual H-bridge motor driver module designed to control the speed and direction of DC and stepper motors. It operates within a voltage range of 5V to 35V. We connect the H-Bridge to the Arduino, using the L298N as an intermediary between the Arduino R4 and the motors like the servomotor.
 
@@ -112,7 +111,7 @@ When we finish building the car, we'll be able to learn about possible solutions
 
 For the first challenge, we initially planned to do it only with the Pixy camera. The camera signals would be orange and blue, and depending on the color, Crazy Diamond (our car) would spin clockwise or counterclockwise. At the same time, upon detecting the color, a variable will count the number of turns made.
 However, we realized it was better to use the ultrasonic sensors for the first challenge, as they allow you to program a code that detects an opening and rotates toward it.
-To reinforce the ultrasound idea, we realized it was easier to correct it every time it rotated. This was difficult with the Pixy camera. We also tried to use the VL53L0x or TOF sensor , but we ultimately decided against it because of non consistent mesuerments when the car was in movement.  We made a document that compared the ultrasonic sensors and the TOF.
+To reinforce the ultrasound idea, we realized it was easier to correct it every time it rotated. This was difficult with the Pixy camera. We also tried to use the VL53L0x or TOF sensor , but we ultimately decided against it because of non consistent measurements when the car was in movement.  We made a document that compared the ultrasonic sensors and the TOF.
 
 [TOFvsULTRASONIC](https://github.com/NPC2team/NPC2-WRO2025/blob/master/Materials/Ultrasonic%20vs%20tof.pdf)
 
@@ -139,6 +138,8 @@ We managed to solve this problem by using only ultrasound and disabling the Pixy
 The second problem was the car's weight, as the battery we were using weighed approximately 500 grams. We solved this by replacing it with a lighter one, weighing 137 grams.
 
 ![716CISc+2RL _AC_SX466_](https://github.com/user-attachments/assets/ae512b6e-a400-4746-97d7-0c506d0fb135)
+
+[Why Zeee battery 2200 mAh?](https://github.com/NPC2team/NPC2-WRO2025/blob/master/Energy%20explanation/DETAILED%20POWER%20CONSUMPTION%20ANALYSIS.pdf)
 
 ## Electrical Design
 

@@ -51,7 +51,7 @@ Pixy cam: ![Pixy-2 1-Smart-Vision-Sensor-Object-Tracking-Camera](https://github.
 7. To regulate the voltage and electricity, we use a voltage regulator that is connected directly to the battery and also powers the DC motor.
 
    Photo of the voltage regulator:
-   ![modulo-voltaje-ajustable-con-voltimetro-generico-lm2596-step-down-led-digital-2035-2612-1](https://github.com/user-attachments/assets/ea85fa16-83b9-4891-b576-245e0ad8913d
+   ![modulo-voltaje-ajustable-con-voltimetro-generico-lm2596-step-down-led-digital-2035-2612-1](https://github.com/user-attachments/assets/ea85fa16-83b9-4891-b576-245e0ad8913d)
 
 8. For last but not least we have the Servo motor and the DC motor, that are very important because this electronical attachments will help us that the car can move and change dirrections. In the case of the Servo motor, this one is connected to an Ackerman Steering Wheel that is a physical steering mechanism designed based on Ackermann geometry with the idea that during a turn the inner wheel should turn sharper than the outer wheel so both wheels follow smooth path. If you are wondering, the Ackerman geometry is a system that ensures a smooth turn by making the inner wheel turn more than the outer one. Meanwhile, the DC motor is part of a mechanism of differents gears where it makes possible the movement of two different wheels with just one motor. This mechanism was created using 3D printers.
 

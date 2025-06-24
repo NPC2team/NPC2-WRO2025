@@ -30,7 +30,7 @@ Arduino R4:![descarga](https://github.com/user-attachments/assets/77c6d0bc-d8ed-
    
 Pixy cam: ![Pixy-2 1-Smart-Vision-Sensor-Object-Tracking-Camera](https://github.com/user-attachments/assets/66575a41-1351-47f3-9a1f-872ceead4ada)
 
-[Pixy Explanation](https://github.com/NPC2team/NPC2-WRO2025/blob/master/Materials/why%20was%20pixy%20chosen.pdf)
+[Why Pixy?](https://github.com/NPC2team/NPC2-WRO2025/blob/master/Materials/why%20was%20pixy%20chosen.pdf)
 
 
 
@@ -43,7 +43,7 @@ Pixy cam: ![Pixy-2 1-Smart-Vision-Sensor-Object-Tracking-Camera](https://github.
 
    Battery: ![71m+EHRrMrL](https://github.com/user-attachments/assets/fa1c7f04-95cc-4ecc-a46f-69529cfb2c18)
    
-[Battery Explanation](https://github.com/NPC2team/NPC2-WRO2025/blob/master/Energy%20explanation/DETAILED%20POWER%20CONSUMPTION%20ANALYSIS.pdf)
+[Why Zeee battery 2200 mAh?](https://github.com/NPC2team/NPC2-WRO2025/blob/master/Energy%20explanation/DETAILED%20POWER%20CONSUMPTION%20ANALYSIS.pdf)
 
 6. To power the motor, and regulates their speed and voltage, we use an H-Bridge, especially the L298N that is a dual H-bridge motor driver module designed to control the speed and direction of DC and stepper motors. It operates within a voltage range of 5V to 35V. We connect the H-Bridge to the Arduino, using the L298N as an intermediary between the Arduino R4 and the motors like the servomotor.
 

@@ -1,6 +1,6 @@
 ![NPC2](https://github.com/user-attachments/assets/f0175fc0-a37f-4198-93c1-9c4c6ef82ea9)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/NPC2team/NPC2-WRO2025) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/NPC2team/NPC2-WRO2025) ![GitHub last commit](https://img.shields.io/github/last-commit/NPC2team/NPC2-WRO2025) ![Static Badge](https://img.shields.io/badge/WRO-2025-green?style=flat)
-
+[Google it](https://www.google.com)
 
 
 

@@ -29,7 +29,7 @@
 #define TIEMPO_AVANCE_FINAL 800      // ms - tiempo de avance después del último giro
 
 // Parámetros de navegación visual
-#define GANANCIA_CAMARA 0.4          // Qué tan agresivo seguir el obstáculo
+#define GANANCIA_CAMARA 0.0          // Qué tan agresivo seguir el obstáculo
 #define DISTANCIA_EVASION 25         // cm - cuándo empezar a evadir
 #define ANCHO_MIN_OBSTACULO 15       // píxeles - tamaño mínimo para considerar válido
 #define CENTRO_CAMARA 158            // Centro horizontal de la Pixy (315/2)
@@ -62,7 +62,7 @@ Pixy2 pixy;
 float distanciaDerecha = 0;
 float distanciaIzquierda = 0;
 int contadorGiros = 0;
-bool carreraTerminada = false;
+bool carreraTerminada = false
 
 // Estructura para info del obstáculo
 struct Obstaculo {
@@ -111,8 +111,8 @@ void setup() {
 void loop() {
   // Si ya se completaron los giros máximos, no hacer nada
   if (carreraTerminada) {
-    detener();
-    return;
+    detener(
+    return
   }
   
   // Leer sensores ultrasónicos
@@ -122,7 +122,7 @@ void loop() {
   // Buscar obstáculos con Pixy
   detectarObstaculo();
   
-  // Debug
+   Debug
   Serial.print("Giro #");
   Serial.print(contadorGiros);
   Serial.print(" | D: ");

@@ -1,6 +1,5 @@
 ![NPC2](https://github.com/user-attachments/assets/f0175fc0-a37f-4198-93c1-9c4c6ef82ea9)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/NPC2team/NPC2-WRO2025) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/NPC2team/NPC2-WRO2025) ![GitHub last commit](https://img.shields.io/github/last-commit/NPC2team/NPC2-WRO2025) ![Static Badge](https://img.shields.io/badge/WRO-2025-green?style=flat)
-[Google it](https://www.google.com)
 
 
 
@@ -78,10 +77,10 @@ The first thing we do to the original chassis was to cut the sides that were nea
 
 We cut the sides of the chassis so we could add a mechanism that makes possible that the 2 backwheels only use 1 DC motor.
 
-Photo of the parts that were about top be cut off:
+Photo of the parts that were about to be cut off:
 ![hola](https://github.com/user-attachments/assets/2bcc6786-80e5-4b6b-9bda-23d1080794a0)
 
-Photo after the proccess of the car´s adaptatio:
+Photo after the proccess of the car´s adaptation:
 ![Car after adaptation](https://github.com/user-attachments/assets/67911118-9095-4905-9a5a-4999bb856103)
 
 
@@ -112,13 +111,14 @@ For the first challenge, we initially planned to do it only with the Pixy camera
 However, we realized it was better to use the ultrasonic sensors for the first challenge, as they allow you to program a code that detects an opening and rotates toward it.
 To reinforce the ultrasound idea, we realized it was easier to correct it every time it rotated. This was difficult with the Pixy camera. We also tried to use the VL53L0x or TOF sensor , but we ultimately decided against it because of non consistent mesuerments when the car was in movement.  We made a document that compared the ultrasonic sensors and the TOF.
 
-https://github.com/NPC2team/NPC2-WRO2025/blob/master/Materials/Ultrasonic%20vs%20tof.pdf
+[TOFvsULTRASONIC](https://github.com/NPC2team/NPC2-WRO2025/blob/master/Materials/Ultrasonic%20vs%20tof.pdf)
 
 ![8e7409_c0e539c39a5e4f6d9af293265917e344~mv2](https://github.com/user-attachments/assets/227bbb83-842f-42a5-80a2-90cf01292889)
 
 With this we managed to complete the challenge, which can be seen through the link on YouTube.
 
-https://youtube.com/shorts/cBEeWWgM5bk
+![First Challenge](https://youtube.com/shorts/cBEeWWgM5bk)
+
 
 
 In the second challenge, we combined the Pixy camera with ultrasound. The Pixy camera's function would be to detect the red and green blocks. This would allow the car to move toward the blocks and then turn in the direction determined by the block's color.

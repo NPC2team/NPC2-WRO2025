@@ -4,7 +4,6 @@
 
 
 
-
 ## Our Team
 
 NPC2 is a robotics team from Caracas, Venezuela nationally representing Colegio Jefferson in the World Robotics Olimpiad. We have a car named Crazy Diamond that has one motor, one servomotor, one PixyCam2, two ultrasonic sensors, one Arduino R4, one voltage regulator, one H bridge, one 11.1 v battery, and an ackerman sterring wheel.

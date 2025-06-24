@@ -37,8 +37,7 @@
 #define TIEMPO_CENTRADO_FASE2 1100    // ms - duración del contra-giro
 #define SERVO_CENTRADO_IZQ 43        // grados - ángulo para centrado inicial a izquierda
 #define SERVO_CENTRADO_DER 133       // grados - ángulo para centrado inicial a derecha
-#define SERVO_CENTRADO_CONTRA_IZQ 110 // grados - contra-giro suave después de ir a izquierda
-#define SERVO_CENTRADO_CONTRA_DER 80  // grados - contra-giro suave después de ir a derecha
+
 
 // Objeto servo
 Servo servoMotor;
@@ -168,7 +167,7 @@ void centradoInicial() {
   } else {
     Serial.println("Ya está centrado - continuando...");
   }
-}
+
 
 // Función para leer sensor ultrasónico individual
 float leerSensorUltrasonico(int trigPin, int echoPin) {
@@ -177,7 +176,7 @@ float leerSensorUltrasonico(int trigPin, int echoPin) {
   delayMicroseconds(2);
   digitalWrite(trigPin, HIGH);
   delayMicroseconds(10);
-  digitalWrite(trigPin, LOW);
+  digitalWrite(trigPin, LOW)
   
   // Leer el tiempo del echo
   long duracion = pulseIn(echoPin, HIGH, 30000); // Timeout de 30ms

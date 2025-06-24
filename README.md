@@ -161,7 +161,7 @@ The precise pin assignments for sensors, motor drivers, and the camera together 
 
 ![images](https://github.com/user-attachments/assets/ee1032ac-dd8a-4fbe-8475-3255ff89e473)
 
-For more details you can check the document: [Diagram Explination](https://github.com/NPC2team/NPC2-WRO2025/blob/master/Schemes/Detailed%20Explanation%20of%20the%20Final%20Flowchart.pdf)
+For more details you can check the document: [Diagram Explanation](https://github.com/NPC2team/NPC2-WRO2025/blob/master/Energy%20explanation/DETAILED%20DESCRIPTION%20OF%20ELECTRICAL%20DIAGRAM.pdf)
 
 
 

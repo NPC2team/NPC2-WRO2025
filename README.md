@@ -42,18 +42,19 @@ Pixy cam: ![Pixy-2 1-Smart-Vision-Sensor-Object-Tracking-Camera](https://github.
 4. To power all this we use the Zeee battery Shorty of 2200 mAh, of 3 Lithium polymer ,from Zeee. This battery weight 137 g. It does 11.1V, and its dimmensions are 75mm*34mm*26.5mm.
 
    Battery: ![71m+EHRrMrL](https://github.com/user-attachments/assets/fa1c7f04-95cc-4ecc-a46f-69529cfb2c18)
+   
+[Battery Explanation](https://github.com/NPC2team/NPC2-WRO2025/blob/master/Energy%20explanation/DETAILED%20POWER%20CONSUMPTION%20ANALYSIS.pdf)
 
-
-5. To power the motor, and regulates their speed and voltage, we use an H-Bridge, especially the L298N that is a dual H-bridge motor driver module designed to control the speed and direction of DC and stepper motors. It operates within a voltage range of 5V to 35V. We connect the H-Bridge to the Arduino, using the L298N as an intermediary between the Arduino R4 and the motors like the servomotor.
+6. To power the motor, and regulates their speed and voltage, we use an H-Bridge, especially the L298N that is a dual H-bridge motor driver module designed to control the speed and direction of DC and stepper motors. It operates within a voltage range of 5V to 35V. We connect the H-Bridge to the Arduino, using the L298N as an intermediary between the Arduino R4 and the motors like the servomotor.
 
    L298N: ![dual-h-bridge-motor-driver-l298n-44325-750x750](https://github.com/user-attachments/assets/50f5d1bb-c85c-4b46-b90e-ffeaee35d658)
 
-6. To regulate the voltage and electricity, we use a voltage regulator that is connected directly to the battery and also powers the DC motor.
+7. To regulate the voltage and electricity, we use a voltage regulator that is connected directly to the battery and also powers the DC motor.
 
    Photo of the voltage regulator:
    ![modulo-voltaje-ajustable-con-voltimetro-generico-lm2596-step-down-led-digital-2035-2612-1](https://github.com/user-attachments/assets/ea85fa16-83b9-4891-b576-245e0ad8913d)}
 
-7. For last but not least we have the Servo motor and the DC motor, that are very important because this electronical attachments will help us that the car can move and change dirrections. In the case of the Servo motor, this one is connected to an Ackerman Steering Wheel that is a physical steering mechanism designed based on Ackermann geometry with the idea that during a turn the inner wheel should turn sharper than the outer wheel so both wheels follow smooth path. If you are wondering, the Ackerman geometry is a system that ensures a smooth turn by making the inner wheel turn more than the outer one. Meanwhile, the DC motor is part of a mechanism of differents gears where it makes possible the movement of two different wheels with just one motor. This mechanism was created using 3D printers.
+8. For last but not least we have the Servo motor and the DC motor, that are very important because this electronical attachments will help us that the car can move and change dirrections. In the case of the Servo motor, this one is connected to an Ackerman Steering Wheel that is a physical steering mechanism designed based on Ackermann geometry with the idea that during a turn the inner wheel should turn sharper than the outer wheel so both wheels follow smooth path. If you are wondering, the Ackerman geometry is a system that ensures a smooth turn by making the inner wheel turn more than the outer one. Meanwhile, the DC motor is part of a mechanism of differents gears where it makes possible the movement of two different wheels with just one motor. This mechanism was created using 3D printers.
 
    Ackerman steering wheel and Servo photo:
    ![61U4BQ34BkL _AC_SX522_](https://github.com/user-attachments/assets/a5e1931c-8a38-4a1e-971f-afa697b164bb)

@@ -29,7 +29,9 @@ Arduino R4:![descarga](https://github.com/user-attachments/assets/77c6d0bc-d8ed-
 2. The electronic device we will use to detect colors will be the pixy cam 2 that is a compact, self-contained vision sensor designed to learn objects by their colors. It processes images and quickly outputs data such as the object's signature.
    
 Pixy cam: ![Pixy-2 1-Smart-Vision-Sensor-Object-Tracking-Camera](https://github.com/user-attachments/assets/66575a41-1351-47f3-9a1f-872ceead4ada)
-https://github.com/NPC2team/NPC2-WRO2025/blob/master/Materials/why%20was%20pixy%20chosen.pdf
+
+[Pixy Explanation](https://github.com/NPC2team/NPC2-WRO2025/blob/master/Materials/why%20was%20pixy%20chosen.pdf)
+
 
 
 3. To help us know where, when, and to mantain position. We will use ultrasonic sensors that uses sonar to measure the distance between itself and an object. It can measure between 2cm to 400 cm, and it operates 40 kHz. To complete the challenges, we used 2 ultrasonic sensors that are in the sides of the car, and are program in way that they will be like a second confirmation of when the car has to cross.
@@ -62,7 +64,7 @@ https://github.com/NPC2team/NPC2-WRO2025/blob/master/Materials/why%20was%20pixy%
 
 Knowing this, you may wonder what is the chasis that we are going to use, after all is a very important part of the vehicle because without it, Crazy Diamond wouldn´t exist at the first place.
 Well the chasis that we used is a chasis of metal that already had the ackerman steering wheel, this chasis can be bought from Amazon. The dimensions of the original chasis are of 337*191*131mm.
-The linnk of the chasis is: https://www.amazon.com/-/es/inteligente-codificado-estructura-anticolisi%C3%B3n-triangular/dp/B0CWTZC5FQ/ref=sr_1_7?crid=3D9Y448EALARV&dib=eyJ2IjoiMSJ9.bCJjQ8c7nkW4Nwuakx-PQ0JSlsAtqFOYd4IfrV90OSppyMg7DebPeTKPTXEKDJlfPcESpcsJSoPtTjKUi3ovc-TNKSxQ_JUGRNZ3x5tnm776BvoPmyBzOIg2gmtpw0X2vn1QENXU6xpZ87O_cs2MhxIkoNzD6WcaPQV7HH_46VwBi9P1fDxEZxWsTRry3HO04tfUn8vBew1MA0w_9aZ2eg.bfHSBu8WWMGvrkC-OKG4-P4m9GnF3JpKHgq5pyXknh0&dib_tag=se&keywords=ackerman+steering+kit&qid=1749764977&sprefix=ackerman+st%2Caps%2C124&sr=8-7
+[Chasis link](https://www.amazon.com/-/es/inteligente-codificado-estructura-anticolisi%C3%B3n-triangular/dp/B0CWTZC5FQ/ref=sr_1_7?crid=3D9Y448EALARV&dib=eyJ2IjoiMSJ9.bCJjQ8c7nkW4Nwuakx-PQ0JSlsAtqFOYd4IfrV90OSppyMg7DebPeTKPTXEKDJlfPcESpcsJSoPtTjKUi3ovc-TNKSxQ_JUGRNZ3x5tnm776BvoPmyBzOIg2gmtpw0X2vn1QENXU6xpZ87O_cs2MhxIkoNzD6WcaPQV7HH_46VwBi9P1fDxEZxWsTRry3HO04tfUn8vBew1MA0w_9aZ2eg.bfHSBu8WWMGvrkC-OKG4-P4m9GnF3JpKHgq5pyXknh0&dib_tag=se&keywords=ackerman+steering+kit&qid=1749764977&sprefix=ackerman+st%2Caps%2C124&sr=8-7) 
 
 
 Photo of the chasis: ![61YIGLu0T0L _AC_SL1500_](https://github.com/user-attachments/assets/3b866ae3-cc4d-49d3-b05d-4d8c8e8187c9)
@@ -117,7 +119,7 @@ To reinforce the ultrasound idea, we realized it was easier to correct it every 
 
 With this we managed to complete the challenge, which can be seen through the link on YouTube.
 
-![First Challenge](https://youtube.com/shorts/cBEeWWgM5bk)
+[First Challenge](https://youtube.com/shorts/cBEeWWgM5bk)
 
 
 

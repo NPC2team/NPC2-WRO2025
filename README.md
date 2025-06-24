@@ -53,7 +53,7 @@ Pixy cam: ![Pixy-2 1-Smart-Vision-Sensor-Object-Tracking-Camera](https://github.
    Photo of the voltage regulator:
    ![modulo-voltaje-ajustable-con-voltimetro-generico-lm2596-step-down-led-digital-2035-2612-1](https://github.com/user-attachments/assets/ea85fa16-83b9-4891-b576-245e0ad8913d)
 
-8. For last but not least we have the Servo motor and the DC motor, that are very important because this electronical attachments will help us that the car can move and change dirrections. In the case of the Servo motor, this one is connected to an Ackerman Steering Wheel that is a physical steering mechanism designed based on Ackermann geometry with the idea that during a turn the inner wheel should turn sharper than the outer wheel so both wheels follow smooth path. If you are wondering, the Ackerman geometry is a system that ensures a smooth turn by making the inner wheel turn more than the outer one. Meanwhile, the DC motor is part of a mechanism of differents gears where it makes possible the movement of two different wheels with just one motor. This mechanism was created using 3D printers.
+8. last but not least we have the Servo motor and the DC motor, that are very important because these electronical attachments will help the car move and change dirrections. In the Servo motor's case, it is connected to an Ackerman Steering Wheel that is a physical steering mechanism designed based on Ackermann geometry with the idea that during a turn the inner wheel should turn sharper than the outer wheel so both wheels follow a smooth path. If you are wondering, the Ackerman geometry is a system that ensures a smooth turn by making the inner wheel turn more than the outer one. Meanwhile, the DC motor is part of a mechanism of different gears where it makes the movement of two different wheels possible with just one motor. This mechanism was created using a 3D printer.
 
    Ackerman steering wheel and Servo photo:
    ![61U4BQ34BkL _AC_SX522_](https://github.com/user-attachments/assets/a5e1931c-8a38-4a1e-971f-afa697b164bb)
@@ -62,8 +62,8 @@ Pixy cam: ![Pixy-2 1-Smart-Vision-Sensor-Object-Tracking-Camera](https://github.
    ![Screenshot 2025-06-12 222236](https://github.com/user-attachments/assets/89c35461-acf2-4244-ba4f-b824a8509724)
 
 
-Knowing this, you may wonder what is the chasis that we are going to use, after all is a very important part of the vehicle because without it, Crazy Diamond wouldn´t exist at the first place.
-Well the chasis that we used is a chasis of metal that already had the ackerman steering wheel, this chasis can be bought from Amazon. The dimensions of the original chasis are of 337*191*131mm.
+Knowing this, you may wonder what is the chasis that we are going to use, after all is a very important part of the vehicle because without it, Crazy Diamond wouldn´t exist in the first place.
+Well the chasis that we used is a metal chasis that already had the ackerman steering wheel, this chasis can be bought from Amazon. The dimensions of the original chasis are of 337*191*131mm.
 [Chasis link](https://www.amazon.com/-/es/inteligente-codificado-estructura-anticolisi%C3%B3n-triangular/dp/B0CWTZC5FQ/ref=sr_1_7?crid=3D9Y448EALARV&dib=eyJ2IjoiMSJ9.bCJjQ8c7nkW4Nwuakx-PQ0JSlsAtqFOYd4IfrV90OSppyMg7DebPeTKPTXEKDJlfPcESpcsJSoPtTjKUi3ovc-TNKSxQ_JUGRNZ3x5tnm776BvoPmyBzOIg2gmtpw0X2vn1QENXU6xpZ87O_cs2MhxIkoNzD6WcaPQV7HH_46VwBi9P1fDxEZxWsTRry3HO04tfUn8vBew1MA0w_9aZ2eg.bfHSBu8WWMGvrkC-OKG4-P4m9GnF3JpKHgq5pyXknh0&dib_tag=se&keywords=ackerman+steering+kit&qid=1749764977&sprefix=ackerman+st%2Caps%2C124&sr=8-7) 
 
 
@@ -71,13 +71,13 @@ Photo of the chasis: ![61YIGLu0T0L _AC_SL1500_](https://github.com/user-attachme
 
 ## Car's Construccion
 
-After that we start disarming, destroying, and putting a lot of things in the car. Adapting the car, evolving it into a wonderful constructions, putting the pieces together, and starting to test and view possible ideas for the challenges.
+After that we started disarming, destroying, and putting a lot of things in the car. Adapting the car, evolving it into a wonderful construction, putting the pieces together, and starting to test and view possible ideas for the challenges.
 
-Example of how it should look the proccess in Powerpoint: ![Screenshot 2025-06-12 224532](https://github.com/user-attachments/assets/95bb5eab-1ceb-4f80-9074-d34f4e8d0cf4)
+Example of how the proccess should look in Powerpoint: ![Screenshot 2025-06-12 224532](https://github.com/user-attachments/assets/95bb5eab-1ceb-4f80-9074-d34f4e8d0cf4)
 
-The first thing we do to the original chassis was to cut the sides that were near the backwheels and cut the chassis in half. We did this so we have less lenght and avoid the problem of being near the maximum lenght.
+The first thing we did to the original chassis was to cut the sides that were near the back wheels and we also cut the chassis in half. We did this so we have less length and avoid the problem of being near the maximum length.
 
-We cut the sides of the chassis so we could add a mechanism that makes possible that the 2 backwheels only use 1 DC motor.
+We cut the sides of the chassis so we could add a mechanism that makes it possible for our two back wheels to use only one motor.
 
 Photo of the parts that were about to be cut off:
 ![hola](https://github.com/user-attachments/assets/2bcc6786-80e5-4b6b-9bda-23d1080794a0)
@@ -86,7 +86,7 @@ Photo after the proccess of the car´s adaptation:
 ![Car after adaptation](https://github.com/user-attachments/assets/67911118-9095-4905-9a5a-4999bb856103)
 
 
-After putting everything where they must go, the car ends like this:
+After putting everything where it must go, the car ended up like this:
 
 ![Back of the vehicle](https://github.com/user-attachments/assets/d84f18ec-d28c-4e1a-b476-ad0eacad9e0f)}
 
@@ -107,7 +107,7 @@ After putting everything where they must go, the car ends like this:
 
 ## Challenge Problem Solving
 
-When we finish building the car, we'll be able to learn about possible solutions to the challenges.
+When we finished building the car, we were able to see possible solutions for the challenges.
 
 For the first challenge, we initially planned to do it only with the Pixy camera. The camera signals would be orange and blue, and depending on the color, Crazy Diamond (our car) would spin clockwise or counterclockwise. At the same time, upon detecting the color, a variable will count the number of turns made.
 However, we realized it was better to use the ultrasonic sensors for the first challenge, as they allow you to program a code that detects an opening and rotates toward it.
@@ -123,7 +123,7 @@ With this we managed to complete the challenge, which can be seen through the li
 
 
 
-In the second challenge, we combined the Pixy camera with ultrasound. The Pixy camera's function would be to detect the red and green blocks. This would allow the car to move toward the blocks and then turn in the direction determined by the block's color.
+In the second challenge, we combined the Pixy camera with the ultrasonic sensor. The Pixy camera's function would be to detect the red and green blocks. This would allow the car to move toward the blocks and then turn in the direction determined by the block's color.
 
 The ultrasound would have the same function as in Challenge 1: to look for an opening for the car to turn.
 
@@ -135,7 +135,7 @@ We managed to solve this problem by using only ultrasound and disabling the Pixy
 
 ![Pixy-2 1-Smart-Vision-Sensor-Object-Tracking-Camera](https://github.com/user-attachments/assets/c38f0298-1c55-4a4a-8b60-57655285e606)
 
-The second problem was the car's weight, as the battery we were using weighed approximately 500 grams. We solved this by replacing it with a lighter one, weighing 137 grams.
+The second problem was the car's weight, as the battery we were using weighed approximately 500 grams. We solved this by replacing it with a lighter one, that weighs 137 grams.
 
 ![716CISc+2RL _AC_SX466_](https://github.com/user-attachments/assets/ae512b6e-a400-4746-97d7-0c506d0fb135)
 
@@ -147,15 +147,15 @@ The electrical diagrams for the car are shown below.
 
 ![Electirc chart v2, definitive (1)](https://github.com/user-attachments/assets/0427b66a-db7a-4d6c-b9de-efaaff71afff)
 
-The circuit starts with a 12V battery feeding all of the parts. For safety, a main power switch (SW1) enables one or off the whole circuit. The LM2596 step-down regulator is used to convert the 12V supply to a stable 5V output given that some parts need a lower voltage level. Without risking overvoltage damage, this controlled 5V is essential for powering sensitive devices including sensors, the servo motor, and Pixy Cam.
+The circuit starts with a 12V battery that feeds all of the parts. For safety, a main power switch (SW1) turns on or off the whole circuit. The LM2596 step-down regulator is used to convert the 12V supply to a stable 5V output given that some parts need a lower voltage level. These controlled 5 volts are essential so we can power sensitive devices including sensors, the servo motor, and the pixy cam without risking overvoltage damage.
 
-Acting as the main controller of the project is the Arduino UNO R4 WiFi. Directly from the 12V source, the Arduino is driven via its DC connector so ensuring it has enough power even if several accessories are running. Two HC-SR04 ultrasonic sensors are used for distance measurement; one sensor has trigger and echo pins wired to digital pins D2 and D4; another has pins D3 and D5. Moreover, a start button wired to digital pin D10 offers a dependable approach to safely start the action by means of a built-in 10k pull-up resistor.
+Acting as the main controller of the project is the Arduino UNO R4 WiFi. Directly from the 12V source, the Arduino is driven via its DC connector so ensuring it has enough power even if several accessories are running. Three HC-SR04 ultrasonic sensors are used for distance measurement; one sensor has trigger and echo pins wired to digital pins D2 and D4; another has pins D3 and D5. Moreover, a start button wired to digital pin D10 offers a dependable approach to safely start the action by means of a built-in 10k pull-up resistor.
 
-Concurrent with these sensor links, the circuit drives a motor through an L298N motor driver module. The Arduino controls the enable input and the motor direction inputs (IN3 and IN4) using digital pins D6, D7, and D8. This design is vital for any mobile robotic system because it lets the motor travel in different speeds and directions. This motor control's simplicity and strength make it perfect for applications needing variable movement.
+Concurrent with these sensor links, the circuit drives a motor through an L298N motor driver module. The Arduino controls the enable input and the motor direction inputs (IN3 and IN4) using digital pins D6, D7, and D8. This design is vital for any mobile robotic system because it lets the motor travel in different speeds and directions. This motor controls simplicity and strength making it perfect for applications needing variable movement.
 
 Another important element is the Pixy Cam (CMUcam5), which offers visual processing ability. Through an SPI connection, the Pixy Cam contacts with the Arduino; the MOSI, MISO, and SCK signals are linked to digital pins D11, D12, and D13 respectively, with a dedicated Slave Select (SS) line on pin A0. Real-time picture processing is made possible by this fast communication channel, hence allowing the system to carry out operations such object tracking or visual navigation. Moreover, an SG90 (often) is included to communicate with the mechanical parts, receiving control signals on a PWM pin and working at 5V from the regulator.
 
-The precise pin assignments for sensors, motor drivers, and the camera together with the deliberate distribution of energy from the strong 12V supply to the precisely controlled 5Vas emphasize the thoughtful integration and equilibrium needed in such an arrangement. Effective mechanical motion control is provided by this design along with sensor data fusing to help with object tracking, obstacle detection, and several user-controllable capabilities.
+The precise pin assignments for sensors, motor drivers, and the camera together with the deliberate distribution of energy from the strong 12V supply to the precisely controlled 5V emphasize the thoughtful integration and equilibrium needed in such an arrangement. Effective mechanical motion control is provided by this design along with sensor data fusing to help with object tracking, obstacle detection, and several user-controllable capabilities.
 
 ![images](https://github.com/user-attachments/assets/ee1032ac-dd8a-4fbe-8475-3255ff89e473)
 
@@ -166,7 +166,7 @@ An Ackerman steering mechanism is designed to guarantee that a vehicle's front w
 Ackermann steering geometry is a smart configuration of linkages in vehicles designed to guarantee that during a turn the interior and outer front wheels trace separate circular paths. This is because the inner wheel should spin more quickly than the outer wheel to avoid tire scrubbing or slipping, as we said before.
 
 ![Figure-1](https://github.com/user-attachments/assets/183b187d-b60b-417c-9dff-150b1c3031a8)
-This works because the inner front wheel has to move a closer radius than the outer front wheel as a car turns. In view of the fact if both wheels were rotated at the same angle, wear would occur as the tires scraped against the road, which also reduces control. The Ackermann mechanism solve this issue by arranging the steering angles of each wheel in a way that employs trapezoids to form links. 
+This works because the inner front wheel has to move a closer radius than the outer front wheel as the car turns. In view of the fact, if both wheels were rotated at the same angle, tire wear would occur as the tires scraped against the road, which also reduces control. The Ackermann mechanism solves this issue by arranging the steering angles of each wheel in a way that employs trapezoids to form links. 
 
 We use the Ackerman steering wheel because it reduces tire wear, it improves the handling, and it help the car take directions combined with the servo motor.
    

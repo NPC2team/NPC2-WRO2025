@@ -62,7 +62,7 @@ void setup() {
   pinMode(TRIG_RIGHT, OUTPUT);
   pinMode(ECHO_RIGHT, INPUT);
   pinMode(TRIG_LEFT, OUTPUT);
-  pinMode(ECHO_LEFT, INPUT);
+  pinMode(ECHO_LEFT, INPUT
   
   Serial.println("Sistema listo!");
   delay(2000);
@@ -117,7 +117,7 @@ void centradoInicial() {
   Serial.print(distInicialDerecha);
   Serial.print(" cm | I: ");
   Serial.print(distInicialIzquierda);
-  Serial.println(" cm");
+  Serial.println(" cm")
   
   // Calcular diferencia
   float diferencia = distInicialIzquierda - distInicialDerecha;

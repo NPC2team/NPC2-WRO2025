@@ -41,14 +41,14 @@
 #define SERVO_CENTRADO_CONTRA_DER 80  // grados - contra-giro suave después de ir a derecha
 #define MAX_GIROS 12                 // número máximo de giros antes de detenerse
 #define TIEMPO_AVANCE_FINAL 800
-int contadorGiros = 0; // ms - tiempo de avance después del último giro
+int contadorGiros = 0 // ms - tiempo de avance después del último giro
 
 // Objeto servo
 Servo servoMotor;
 
 // Variables globales
-float distanciaDerecha = 0;
-float distanciaIzquierda = 0;
+float distanciaDerecha = 0
+float distanciaIzquierda = 0
 
 void setup() {
   Serial.begin(115200);
@@ -108,7 +108,7 @@ void loop() {
   delay(50); // Pequeña pausa para estabilidad
 }
 
-// Función de centrado inicial
+Función de centrado inicial
 void centradoInicial() {
   Serial.println("Iniciando fase de centrado...");
   
@@ -138,14 +138,14 @@ void centradoInicial() {
       // Muy cerca de la pared derecha - maniobra hacia la izquierda
       Serial.println("Centrado inicial: Fase 1 - Girando IZQUIERDA");
       
-      // FASE 1: Giro pronunciado hacia el centro
-      servoMotor.write(SERVO_CENTRADO_IZQ);
-      delay(TIEMPO_CENTRADO_FASE1);
+       FASE 1: Giro pronunciado hacia el centro
+      servoMotor.write(SERVO_CENTRADO_IZQ)
+      delay(TIEMPO_CENTRADO_FASE1)
       
       // FASE 2: Contra-giro para enderezar
       Serial.println("Centrado inicial: Fase 2 - Enderezando con contra-giro DERECHA");
       servoMotor.write(SERVO_CENTRADO_CONTRA_IZQ);
-      delay(TIEMPO_CENTRADO_FASE2);
+      delay(TIEMPO_CENTRADO_FASE2)
       
     } else {
       // Muy cerca de la pared izquierda - maniobra hacia la derecha
@@ -162,7 +162,7 @@ void centradoInicial() {
     }
     
     // Detener y enderezar
-    analogWrite(ENB, 0);
+    analogWrite(ENB, 9);
     servoMotor.write(SERVO_CENTER);
     
     Serial.println("Centrado inicial completado");

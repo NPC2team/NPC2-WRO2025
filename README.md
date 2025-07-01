@@ -6,22 +6,25 @@
 
 ## Our Team
 
-NPC2 is a robotics team from Caracas, Venezuela nationally representing Colegio Jefferson in the World Robotics Olimpiad. We have a car named Crazy Diamond that has one motor, one servomotor, one PixyCam2, three ultrasonic sensors, one Arduino R4, one voltage regulator, one H bridge, one 11.1 v battery, and an ackerman steering wheel.
+NPC2 is a robotics team from Caracas, Venezuela nationally representing Colegio Jefferson in the World Robotics Olimpiad.  
+We have a car named Crazy Diamond and we will be explaning every single detail about him in this repository.
 Team Picture:![picture of the team](https://github.com/user-attachments/assets/0116211c-a6b6-41da-97f7-951bd6472900)
 From left to right: Juan Ignacio González Cardesin,Andrea Jaimes Bselis,Leonardo Carrasquero Recchuiti.
 We are competing in the future engineers category of the W.R.O.
 The future engineers category consists in 3 mayor challenges:
 
-The first challenge is that the car has to do 3 complete laps in the track for then stop in the same place the car started.
+The first challenge states that the car has to do 3 complete laps in the track and upon finishing stop in the same place it started.
 
-In the second challenge, the car has to do laps but in this case there are some obstacles that depending on the color, the car will have to go left or right.
+In the second challenge, the car has to do the same three laps while evading obstacles, these oblatacles will vary from color being red or green and depending on the color the bcar while have to evade them via the right (red) or left (green)  .
 
-During the last challenge the car will start in a parking spot and it has to do the second challenge again, but in this case  the car will have to stop in the parking spot in parallel parking.
+During the last challenge the car will start in a parking spot and it has to do the second challenge again, but in this case  the car will have to park in the parking spot , this parking must be parelel parking.
 
 ## Materials
 
-For this the first thing we did, was to organize different things. For example the materials: the chasis we will use, and in what microcontroller we will program.
-After a long period of discussion we already have the different materials we will use that are:
+For this competition we had to organize and coordinate with each other in order to narrow down the materials we will use. 
+We ended up diciding on the following materiales: one motor, one servomotor, one PixyCam2, three ultrasonic sensors, one Arduino R4, one voltage regulator, one H bridge, one 11.1 v battery, and an ackerman steering mecanisim that came with the chasis. 
+Below you will see what each material will be used for and why we chose them.
+
 1. The microcontroller that we used is the Arduino R4 WIFI. The Arduino UNO R4 WIFI is an upgraded version of the Arduino UNO, featuring Wi-Fi and Bluetooth connectivity (in this case, due to the competition's rules the Wi-Fi and Bluetooth connectivity is disabled). It’s built around the Renesas RA4M1 microcontroller, which is a 32-bit ARM Cortex-M4 running at 48 MHz, offering significantly more power than the previous 8-bit ATmega328P in the UNO R3. Also this Arduino just needs 5V to start working and in short words, this will be the brain of the car. The Arduino R4 Wi-Fi has 14 digital pins and 6 analogs, so this makes it perfect for us to work. Besides, it's very easy to code in it as it uses a subdivision of C++ called Arduino C++.
 
 

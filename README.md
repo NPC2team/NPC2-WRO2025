@@ -28,6 +28,8 @@ During the last challenge the car will start in a parking spot and it has to do 
 
 ## Materials
 
+Watch an explanation of the materials :[Our Materials](https://www.youtube.com/watch?v=jLK10MU_x0E)
+[Watch them in accion](https://www.youtube.com/watch?v=ydlA4w6UwqU)
 For this competition we had to organize and coordinate with each other in order to narrow down the materials we will use. 
 We ended up diciding on the following materials: one motor, one servomotor, one PixyCam2, three ultrasonic sensors, one Arduino R4, one voltage regulator, one H bridge, one 11.1 v battery, and an ackerman steering mecanisim that came with the chasis. 
 Below you will see what each material will be used for and why we chose them.
@@ -82,8 +84,10 @@ Well the chasis that we used is a metal chasis that already had the ackerman ste
 Photo of the chasis: ![61YIGLu0T0L _AC_SL1500_](https://github.com/user-attachments/assets/3b866ae3-cc4d-49d3-b05d-4d8c8e8187c9)
 
 ## Car's Construccion
+Watch an explicatory:[how we created crazy diamond](https://youtu.be/GFbxslP3FUo)
 
-After that we started disarming, destroying, and putting a lot of things in the car. Adapting the car, evolving it into a wonderful construction, putting the pieces together, and starting to test and view possible ideas for the challenges.
+After that we started disarming, destroying, and putting the components that where mencioned before hand.
+Adapting the car, evolving it into a wonderful construction, putting the pieces together, and starting to test and view possible ideas for the challenges.
 
 Example of how the proccess should look in Powerpoint: ![Screenshot 2025-06-12 224532](https://github.com/user-attachments/assets/95bb5eab-1ceb-4f80-9074-d34f4e8d0cf4)
 
@@ -118,6 +122,8 @@ After putting everything where it must go, the car ended up like this:
 ![Vehicle side1](https://github.com/user-attachments/assets/6e4e4bbf-1efd-4bb6-a8ce-6042c837e99a)
 
 ## Challenge Problem Solving
+
+[Code explanation](https://www.youtube.com/watch?v=fA16RF1uHUw)
 
 When we finished building the car, we were able to see possible solutions for the challenges.
 
@@ -154,6 +160,9 @@ The second problem was the car's weight, as the battery we were using weighed ap
 [Why Zeee battery 2200 mAh?](https://github.com/NPC2team/NPC2-WRO2025/blob/master/Energy%20explanation/DETAILED%20POWER%20CONSUMPTION%20ANALYSIS.pdf)
 
 ## Electrical Design
+
+
+[Electric explanation](https://www.youtube.com/watch?v=MQSTbkFTwDA)
 
 The electrical diagrams for the car are shown below.
 ![Final electric diagram with 3 ultrasonic sensors](https://github.com/user-attachments/assets/a63ccc0c-6770-41c2-a5b6-ffa303ebe780)

@@ -22,14 +22,14 @@ The future engineers category consists in 3 mayor challenges:
 
 The first challenge states that the car has to do 3 complete laps in the track and upon finishing stop in the same place it started.
 
-In the second challenge, the car has to do the same three laps while evading obstacles, these oblatacles will vary from color being red or green and depending on the color the bcar while have to evade them via the right (red) or left (green)  .
+In the second challenge, the car has to do the same three laps while evading obstacles, these oblstacles will vary from color being red or green and depending on the color the car while have to evade them via the right (red) or left (green)  .
 
-During the last challenge the car will start in a parking spot and it has to do the second challenge again, but in this case  the car will have to park in the parking spot , this parking must be parelel parking.
+During the last challenge the car will start in a parking spot and it has to do the second challenge again, but in this case the car will have to park in the parking spot , this parking must be parelel parking.
 
 ## Materials
 
 For this competition we had to organize and coordinate with each other in order to narrow down the materials we will use. 
-We ended up diciding on the following materiales: one motor, one servomotor, one PixyCam2, three ultrasonic sensors, one Arduino R4, one voltage regulator, one H bridge, one 11.1 v battery, and an ackerman steering mecanisim that came with the chasis. 
+We ended up diciding on the following materials: one motor, one servomotor, one PixyCam2, three ultrasonic sensors, one Arduino R4, one voltage regulator, one H bridge, one 11.1 v battery, and an ackerman steering mecanisim that came with the chasis. 
 Below you will see what each material will be used for and why we chose them.
 
 1. The microcontroller that we used is the Arduino R4 WIFI. The Arduino UNO R4 WIFI is an upgraded version of the Arduino UNO, featuring Wi-Fi and Bluetooth connectivity (in this case, due to the competition's rules the Wi-Fi and Bluetooth connectivity is disabled). It’s built around the Renesas RA4M1 microcontroller, which is a 32-bit ARM Cortex-M4 running at 48 MHz, offering significantly more power than the previous 8-bit ATmega328P in the UNO R3. Also this Arduino just needs 5V to start working and in short words, this will be the brain of the car. The Arduino R4 Wi-Fi has 14 digital pins and 6 analogs, so this makes it perfect for us to work. Besides, it's very easy to code in it as it uses a subdivision of C++ called Arduino C++.
@@ -74,7 +74,7 @@ Pixy cam: ![Pixy-2 1-Smart-Vision-Sensor-Object-Tracking-Camera](https://github.
    ![Screenshot 2025-06-12 222236](https://github.com/user-attachments/assets/89c35461-acf2-4244-ba4f-b824a8509724)
 
 
-Knowing this, you may wonder what is the chasis that we are going to use, after all is a very important part of the vehicle because without it, Crazy Diamond wouldn´t exist in the first place.
+Knowing this, you may wonder what is the chasis that we used, after all it is a very important part of the vehicle because without it, Crazy Diamond wouldn´t exist in the first place.
 Well the chasis that we used is a metal chasis that already had the ackerman steering wheel, this chasis can be bought from Amazon. The dimensions of the original chasis are of 337*191*131mm.
 [Chasis link](https://www.amazon.com/-/es/inteligente-codificado-estructura-anticolisi%C3%B3n-triangular/dp/B0CWTZC5FQ/ref=sr_1_7?crid=3D9Y448EALARV&dib=eyJ2IjoiMSJ9.bCJjQ8c7nkW4Nwuakx-PQ0JSlsAtqFOYd4IfrV90OSppyMg7DebPeTKPTXEKDJlfPcESpcsJSoPtTjKUi3ovc-TNKSxQ_JUGRNZ3x5tnm776BvoPmyBzOIg2gmtpw0X2vn1QENXU6xpZ87O_cs2MhxIkoNzD6WcaPQV7HH_46VwBi9P1fDxEZxWsTRry3HO04tfUn8vBew1MA0w_9aZ2eg.bfHSBu8WWMGvrkC-OKG4-P4m9GnF3JpKHgq5pyXknh0&dib_tag=se&keywords=ackerman+steering+kit&qid=1749764977&sprefix=ackerman+st%2Caps%2C124&sr=8-7) 
 

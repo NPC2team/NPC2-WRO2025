@@ -10,7 +10,8 @@
 - [Electrical Design](#electrical-design)
 - [Ackermann Steering Mechanism](#ackeman-steering-mechanism)
 
-
+##Disclaimer
+This repository is the same for the competition of the WRO2025 Venezuela, and the WRO2025 China
 ## Our Team
 
 NPC2 is a robotics team from Caracas, Venezuela nationally representing Colegio Jefferson in the World Robotics Olimpiad.  

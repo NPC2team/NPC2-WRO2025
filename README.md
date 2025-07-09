@@ -10,7 +10,7 @@
 - [Electrical Design](#electrical-design)
 - [Ackermann Steering Mechanism](#ackeman-steering-mechanism)
 
-##Disclaimer
+## Disclaimer
 This repository is the same for the competition of the WRO2025 Venezuela, and the WRO2025 China
 ## Our Team
 

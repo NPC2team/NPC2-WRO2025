@@ -16,7 +16,8 @@ This repository is the same for the competition of the WRO2025 Venezuela, and th
 
 NPC2 is a robotics team from Caracas, Venezuela nationally representing Colegio Jefferson in the World Robotics Olimpiad.  
 We have a car named Crazy Diamond and we will be explaning every single detail about him in this repository.
-Team Picture:![picture of the team](https://github.com/user-attachments/assets/0116211c-a6b6-41da-97f7-951bd6472900)
+Team Picture:![Team FOTO](https://github.com/user-attachments/assets/db0f9683-4e25-41d8-ad91-570394059c66)
+
 From left to right: Juan Ignacio González Cardesin,Andrea Jaimes Bselis,Leonardo Carrasquero Recchuiti.
 We are competing in the future engineers category of the W.R.O.
 The future engineers category consists in 3 mayor challenges:
@@ -97,10 +98,14 @@ The first thing we did to the original chassis was to cut the sides that were ne
 We cut the sides of the chassis so we could add a mechanism that makes it possible for our two back wheels to use only one motor.
 
 Photo of the parts that were about to be cut off:
-![hola](https://github.com/user-attachments/assets/2bcc6786-80e5-4b6b-9bda-23d1080794a0)
+![009 Ajuste Chasis](https://github.com/user-attachments/assets/7ccd2c76-b518-46bd-b149-a5e04f1b79d7)
+
 
 Photo after the proccess of the car´s adaptation:
-![Car after adaptation](https://github.com/user-attachments/assets/67911118-9095-4905-9a5a-4999bb856103)
+![018 Enganajes3](https://github.com/user-attachments/assets/6cdce48b-90d1-491f-b1dd-73388222f62a)
+![019 Enganajes3](https://github.com/user-attachments/assets/fadd768b-ad6a-46a1-aa13-7acc72285e02)
+![017 Enganajes3](https://github.com/user-attachments/assets/e24d565f-9af6-4f18-9570-e6cab49ec8ca)
+![011 Joint Chasis2-1](https://github.com/user-attachments/assets/f004bb6b-d458-4688-9a82-1ae59c8408cf)
 
 
 After putting everything where it must go, the car ended up like this:

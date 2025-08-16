@@ -105,22 +105,23 @@ Photo after the proccess of the car´s adaptation:
 
 After putting everything where it must go, the car ended up like this:
 
-![Back of the vehicle](https://github.com/user-attachments/assets/d84f18ec-d28c-4e1a-b476-ad0eacad9e0f)}
+![001 Carro Frontal-1](https://github.com/user-attachments/assets/78a214bd-fa74-4974-a871-67568b1317ab)
 
 
-
-![Front of the vehicle](https://github.com/user-attachments/assets/4aa69e8d-950e-4e0f-b923-1388caeebf31)
-
+![006 Carro por Debajo](https://github.com/user-attachments/assets/15fd96eb-559a-4bf8-90c6-614f28103933)
 
 
-![Up view of the vehicle](https://github.com/user-attachments/assets/3d93f163-7ada-4756-86f7-f130d9bfa369)
+![002 Carro Arriba-1](https://github.com/user-attachments/assets/c74053dd-57e3-4b6d-80d8-788180a4fa1a)
 
 
-![Side 2 of the vehicle](https://github.com/user-attachments/assets/1cd57ae4-c6ca-4bbb-a0d7-5659cdb06ed6)
+![003 Carro Lado Derecho-1](https://github.com/user-attachments/assets/3a225319-a82c-45bc-aa85-ebb674eccf61)
 
 
+![004 Carro Lado Izquierdo-1](https://github.com/user-attachments/assets/b1af30ed-6fae-44aa-9a82-1dd88ea72ae8)
 
-![Vehicle side1](https://github.com/user-attachments/assets/6e4e4bbf-1efd-4bb6-a8ce-6042c837e99a)
+
+![005 Carro Trasero-1](https://github.com/user-attachments/assets/60fddc67-f8b0-4c69-8660-9a608914a85d)
+
 
 ## Challenge Problem Solving
 

@@ -54,8 +54,13 @@ Pixy cam: ![Pixy-2 1-Smart-Vision-Sensor-Object-Tracking-Camera](https://github.
 
     3D model of ultrasonic sensor: ![Ultrasonic-Sensor (1)](https://github.com/user-attachments/assets/d6b3bff4-a4e4-48a0-98d6-80e1829464db)
 
+   The one in the front is a specific model called HRLV, The HRLV‑MaxSonar‑EZ is a high‑resolution, low‑voltage ultrasonic sensor that measures the distance to nearby objects using sound waves.
+It offers multiple output formats (analog voltage, pulse width, and serial) for easy integration, and is designed for reliable detection with excellent side‑object rejection.
+   It measures distances from 300 mm to 5000 mm (about 12 inches to 16.4 feet) with a 10 Hz read rate, making it perfect for both short‑ and long‑range applications!
+![984-02](https://github.com/user-attachments/assets/d38667bf-c5f3-4589-8972-f9be59574291)
+
    
-4. To power all this we used the Zeee battery Shorty that has 2200 mAh, 3 Lithium polymer. This battery weighs 137 g. It has 11.1V, and its dimmensions are 75mm*34mm*26.5mm.
+5. To power all this we used the Zeee battery Shorty that has 2200 mAh, 3 Lithium polymer. This battery weighs 137 g. It has 11.1V, and its dimmensions are 75mm*34mm*26.5mm.
 
    Battery: ![71m+EHRrMrL](https://github.com/user-attachments/assets/fa1c7f04-95cc-4ecc-a46f-69529cfb2c18)
    

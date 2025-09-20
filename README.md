@@ -18,7 +18,7 @@ NPC2 is a robotics team from Caracas, Venezuela nationally representing Colegio 
 We have a car named Crazy Diamond and we will be explaning every single detail about him in this repository.
 Team Picture:![Team FOTO](https://github.com/user-attachments/assets/db0f9683-4e25-41d8-ad91-570394059c66)
 
-From left to right: Juan Ignacio González Cardesin,Andrea Jaimes Bselis,Leonardo Carrasquero Recchuiti.
+From left to right: Juan Ignacio González Cardesin, Andrea Jaimes Bselis, Leonardo Carrasquero Recchuiti.
 We are competing in the future engineers category of the W.R.O.
 The future engineers category consists in 3 mayor challenges:
 
